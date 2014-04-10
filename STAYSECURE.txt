@@ -1,0 +1,16 @@
+Whilst every effort has been made to ensure that this program is safe and 100% secure from any malicious attacks
+or potential security breaches, all computers and networks are unique and there a few steps you can take to ensure that
+your security remains unbroken whilst using this software.
+
+Whilst running this software, you will be running a webserver on your local machine. This is not usually a problem, but can be
+if your network is setup to portforward into your computer on port 80, or otherwise running on a DMZ. 
+This is not usually the case, however we would recommend that you check with your internet service provider or your network 
+administrator if you are unsure of this information.
+
+This software is designed to be used locally only. The security settings have been designed to work locally and not to be 
+broadcast on the internet or be connected to using http externally. Please DO NOT use this webserver or mysql database to run
+a live website or webservice on that is contactable from the outside world. Even if you know what you are doing, this is
+probably a really dumb idea ;)
+
+If you would like any more information on this installation, feel free to contact us at Http://www.battlefieldtools.com or
+use the livechat functionality built into your tools control panel.
