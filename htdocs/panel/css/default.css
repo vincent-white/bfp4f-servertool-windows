@@ -1,0 +1,390 @@
+/**
+ * BattlefieldTools.com BFP4F ServerTool
+ * Version 0.7.2
+ *
+ * Copyright (C) 2014 <Danny Li> a.k.a. SharpBunny
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>. 
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,800);
+
+body {
+	color: #555;
+	margin-top: 70px;
+	font-family: Open Sans;
+	font-size: 14px;
+}
+
+h1, h2, h3, h4, h5 {
+	color: #444;
+}
+
+h1, h2, h3, h4, h5,
+h1 small, h2 small, h3 small {
+	text-shadow:1px 1px 1px #e2e2e2;
+	font-family: Open Sans;
+	font-weight: 300;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.text-dark{color:#2c2c2c!important}.dark{color:#333!important}.white{color:#FFF!important}.red{color:#dd5a43!important}.light-red{color:#f77!important}.blue{color:#478fca!important}.light-blue{color:#93cbf9!important}.green{color:#69aa46!important}.light-green{color:#b6e07f!important}.orange{color:#ff892a!important}.purple{color:#a069c3!important}.pink{color:#c6699f!important}.pink2{color:#d6487e!important}.brown{color:brown!important}.grey{color:#777!important}.bigger-110{font-size:110%}.bigger-125{font-size:125%}.bigger-150{font-size:150%}.bigger-200{font-size:200%}.smaller-90{font-size:90%}.smaller-75{font-size:75%}.smaller-50{font-size:50%}.hr{display:block;height:0;overflow:hidden;font-size:1px;margin:12px 0;border-top:1px solid #e3e3e3}.hr-double{height:1px;border-top:1px solid #e3e3e3;border-bottom:1px solid #e3e3e3}.hr8{margin:8px 0}.hr12{margin:12px 0}.hr16{margin:16px 0}.hr18{margin:18px 0}.hr24{margin:24px 0}.hr32{margin:32px 0}.hr.dotted{border-top-style:dotted}.hr-double.dotted{border-bottom-style:dotted}
+
+.center {
+	text-align: center;
+}
+
+.btn > i.fa,
+.fa-block {
+	display: inline-block;
+	width: 15px;
+	margin-right: 5px;
+	text-align: center;
+}
+
+.btn > i.right {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+.btn i.icon-only {
+	margin: 0;
+	width: auto;
+}
+
+.navbar-collapse {
+	padding-right: 20px;
+	padding-left: 15px;
+}
+
+.navbar.navbar-inverse .dropdown-menu {
+	background-color: #222;
+}
+
+.navbar.navbar-inverse .dropdown-menu >li >a:hover {
+	color: #ededed;
+}
+
+.navbar.navbar-inverse .dropdown-menu .divider {
+	background-color: #474747;
+}
+
+.navbar.navbar-inverse .dropdown-menu > li > a {
+	color: #999;
+	padding: 4px 30px;
+}
+
+.navbar.navbar-default .dropdown-menu > li > a {
+	color: #555;
+	padding: 4px 30px;
+}
+
+.navbar.navbar-default .dropdown-menu > li > a:hover {
+	background: #e7e7e7;
+	color: #333;
+	padding: 4px 30px;
+}
+
+.navbar.navbar-default .dropdown-menu > li.active > a {
+	background: #e7e7e7;
+}
+
+.navbar.navbar-inverse .dropdown-menu li > a > i {
+	display: inline-block;
+	text-align: center;
+	width: 15px;
+	margin-right: 5px
+}
+
+.navbar .brand {
+	line-height: 25px;
+	font-size: 23px;
+}
+
+.navbar .nav > li {
+	line-height: 25px
+}
+
+.navbar .nav li.dropdown>.dropdown-toggle .caret {
+	line-height: 25px;
+	margin-top: 12px;
+}
+
+.container {
+	margin-top: 25px
+}
+
+.db-item.disabled {
+	opacity: 0.4;
+}
+
+.db-item.disabled a:hover {
+	text-decoration: none
+}
+
+a > i:hover {
+	text-decoration: none
+}
+
+footer {
+	margin-bottom: 25px
+}
+
+footer a:hover {
+	text-decoration: none
+}
+
+
+/*
+ * 
+ */
+
+.table-bordered {
+	border-radius: 0!important;
+}
+
+.table-bordered thead:first-child tr:first-child>th:first-child,.table-bordered tbody:first-child tr:first-child>td:first-child {
+	border-radius: 0!important;
+}
+
+.table-bordered thead:first-child tr:first-child>th:last-child,.table-bordered tbody:first-child tr:first-child>td:last-child {
+	border-radius: 0!important;
+}
+
+.table-bordered thead:last-child tr:last-child>th:first-child,.table-bordered tbody:last-child tr:last-child>td:first-child,.table-bordered tfoot:last-child tr:last-child>td:first-child {
+	border-radius: 0!important;
+}
+
+.table-bordered {
+	border-radius: 0!important;
+}
+
+.table-bordered thead:first-child tr:first-child>th:first-child,.table-bordered tbody:first-child tr:first-child>td:first-child {
+	border-radius: 0!important;
+}
+
+.table-bordered thead:first-child tr:first-child>th:last-child,.table-bordered tbody:first-child tr:first-child>td:last-child {
+	border-radius: 0!important;
+}
+
+.table-bordered thead:last-child tr:last-child>th:first-child,.table-bordered tbody:last-child tr:last-child>td:first-child,.table-bordered tfoot:last-child tr:last-child>td:first-child {
+	border-radius: 0!important;
+}
+
+.table thead:first-child tr {
+	background: #f2f2f2;
+	background: -moz-linear-gradient(top,#f8f8f8 0,#ececec 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#f8f8f8),color-stop(100%,#ececec));
+	background: -webkit-linear-gradient(top,#f8f8f8 0,#ececec 100%);
+	background: -o-linear-gradient(top,#f8f8f8 0,#ececec 100%);
+	background: -ms-linear-gradient(top,#f8f8f8 0,#ececec 100%);
+	background: linear-gradient(to bottom,#f8f8f8 0,#ececec 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F8F8F8',endColorstr='#ECECEC',GradientType=0);
+	color: #707070;
+	font-weight: normal;
+}
+
+.table thead:first-child tr th {
+	border: 1px solid #DDD;
+	border-width: 0 1px;
+	font-weight: bold;
+}
+
+.table thead:first-child tr th>[class*="icon-"] {
+	margin-right: 2px;
+}
+
+.table thead:first-child tr th:first-child {
+	border-left-color: #f1f1f1;
+}
+
+.table thead:first-child tr th:last-child {
+	border-right-color: #f1f1f1;
+}
+
+.table-bordered thead:first-child tr th {
+	border-width: 0 0 0 1px;
+	border-color: #DDD;
+	vertical-align: middle;
+}
+
+.table-bordered thead:first-child tr th:first-child {
+	border-left-color: #DDD;
+}
+
+.table-hover tbody tr:hover td,.table-hover tbody tr:hover th {
+	background-color: #f1f1f1;
+}
+
+td .lbl,th .lbl {
+	margin-bottom: 0;
+}
+
+td>.lbl:only-child,th>.lbl:only-child {
+	vertical-align: top;
+}
+
+td.center,th.center {
+	text-align: center;
+}
+
+.table-header {
+	background-color: #307ecc;
+	color: #FFF;
+	font-size: 14px;
+	line-height: 38px;
+	padding-left: 12px;
+	margin-bottom: 1px;
+}
+
+#terminal {
+	font-family: courier, courier new;
+	background: #2c2c2c;
+	padding: 15px;
+	width: 100%;
+	height: 500px;
+	overflow: auto;
+	white-space: nowrap;
+	color: #f2f2f2;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+#terminal h2,
+#terminal h2 small {
+	font-family: courier, courier new;
+	color: #f2f2f2;
+	text-shadow: none;
+}
+
+.contextMenu {
+	display: none;
+	position: absolute;
+}
+
+.progress {
+	position: relative;
+	height: 28px;
+}
+
+.progress span {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	right: 0;
+	color: #2c2c2c;
+	text-align: center;
+	width: 100%;
+	line-height: 30px;
+}
+
+.progress .progress-bar-danger span {
+	color: #f2f2f2;
+}
+
+.alert.fix-bottom {
+	padding-bottom: 0;
+}
+
+#i3dInfo {
+	margin-top: 5px;
+}
+
+/**
+ * 	EFFECTS
+ */
+
+.btn,.btn:hover,a,.a:hover {
+	transition: all .25s ease;
+}
+
+.f0 {
+	animation: fadein .3s;
+    -moz-animation: fadein .3s;
+    -webkit-animation: fadein .3s;
+    -o-animation: fadein .3s;
+}
+.f1 {
+	animation: fadein .9s;
+    -moz-animation: fadein .9s;
+    -webkit-animation: fadein .9s;
+    -o-animation: fadein .9s;
+}
+.f2 {
+	animation: fadein 1.5s;
+    -moz-animation: fadein 1.5s;
+    -webkit-animation: fadein 1.5s;
+    -o-animation: fadein 1.5s;
+}
+.f3 {
+	animation: fadein 2.1s;
+    -moz-animation: fadein 2.1s;
+    -webkit-animation: fadein 2.1s;
+    -o-animation: fadein 2.1s;
+}
+.f4 {
+	animation: fadein 2.7s;
+    -moz-animation: fadein 2.7s;
+    -webkit-animation: fadein 2.7s;
+    -o-animation: fadein 2.7s;
+}
+.f5 {
+	animation: fadein 3.3s;
+    -moz-animation: fadein 3.3s;
+    -webkit-animation: fadein 3.3s;
+    -o-animation: fadein 3.3s;
+}
+.f6 {
+	animation: fadein 3.9s;
+    -moz-animation: fadein 3.9s;
+    -webkit-animation: fadein 3.9s;
+    -o-animation: fadein 3.9s;
+}
+
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@-moz-keyframes fadein { /* Firefox */
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@-o-keyframes fadein { /* Opera */
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}

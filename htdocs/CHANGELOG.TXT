@@ -1,0 +1,302 @@
+/**
+ * BattlefieldTools.com BFP4F ServerTool
+ * Version 0.7.2
+ *
+ * Copyright (C) 2014 <Danny Li> a.k.a. SharpBunny
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>. 
+ */
+
+08-04-2014 [v0.7.2]
+	
+	HOW TO UPDATE TO THIS VERSION:
+	- You have to reinstall the whole tool
+	- Please note cronjobs are a little different, please use the installation guides
+	
+	* [Feature] Server settings editor
+					* ../panel/server-settings.php added
+	
+	* [Feature] Timed messages
+					* ../panel/index.php updated
+					* ../core/cp_header.php updated
+					* ../cronjobs/limiters.php updated
+					* Table 'settings' 'tool_tmsg' added
+					* Table 'timed_msg' added
+					* ../panel/tmsg/index.php added
+					* ../panel/tmsg/add.php added
+					* ../panel/tmsg/edit.php added
+					* ../core/classes/TimedMessages.class.php added
+					
+	* [Feature] Able to edit the required votes and the poll duration for in-game voting in the panel
+					* ../panel/igcmds/settings.php added
+					* Table 'settings' 'tool_igcmds_ptime' added
+					
+	* [Feature] Added fsockopen, short_tags_open and mcrypt checker
+					* ../core/init.php updated
+					* ../index.php updated
+	
+	* [Feature] Livechat widget added and livechat page for fast support
+					* ../core/cp_footer.php updated
+					* ../panel/livechat.php added
+					
+	* [Feature] Option to disable all the limiters
+					* ../panel/index.php updated
+					* ../panel/settings.php updated
+					* ../cronjobs/limiters.php updated
+					* Table 'settings' 'tool_limiters' added
+					
+	* [Feature] Possibility to view the player's loadout through the panel
+					* ../panel/server.php updated
+					* ../panel/ajax/getLoadout.php added
+					
+	* [Feature] Possibility to switch the player through the panel (UNRANKED only)
+					* ../panel/server.php updated
+					* ../panel/ajax/server.php updated
+					
+	* [Feature] In-game command to whitelist a player
+					* ../core/IgCommands.class.php updated
+					* Table 'igcmds' 'whitelist' @ lvl 100 added
+					
+	* [Feature] Switch map through the panel
+					* ../panel/server.php updated
+					* ../panel/ajax/server.php updated
+					
+	* [Feature] Vote close through panel
+					* ../panel/server.php updated
+					* ../panel/ajax/server.php updated
+					
+	* [Feature] Sending data to BattlefieldTools.com, to let us know who is using the tool and offer you the best support when needed.
+					* ../install.php updated
+					* ../cronjobs/limiters.php updated
+					* ../core/init.php updated
+	
+	* [Feature] i3D API added (i3D gameservers only)
+					* ../core/init.php updated
+					* ../core/classes/i3d.class.php
+					* ../panel/settings.php updated
+					* ../install.php updated
+					* Table 'settings' 'i3d_userid' added
+					* Table 'settings' 'i3d_apikey' added
+					* Table 'settings' 'i3d_gameserverid' added
+					* Table 'settings' 'i3d_active' added
+					* Table 'settings' 'i3d_last_check' added
+					
+	* [Feature] Start / Stop / Restart server (i3D gameservers only)
+					* ../panel/ajax/server.php updated
+					* ../panel/server.php updated
+					* ../panel/index.php
+					
+	* [Feature] See your current i3D server status (i3D gameservers only)
+					* ../panel/index.php updated
+					
+	* [Feature] Edit i3D gameserver configurations (i3D gameservers only)
+					* ../panel/settings.php updated
+	
+	* [Feature] Public serverwatcher
+					* ../panel/settings.php updated
+					* Table 'settings' 'tool_watcher' added
+					* ../public/ajax/serverInfo.php added
+					* ../public/index.php added
+					
+	* [Feature] Ping checker (servertool =====> gameserver) added
+					* ../core/functions/ping.func.php added
+					* ../panel/ajax/ping.php added
+					* ../panel/ping.php added
+					* ../panel/index.php updated
+					* ../panel/server.php updated
+					* ../core/cp_header.php updated
+					
+	* [Feature] In-game command: !attachments added
+					* ../core/classes/IgCommands.class.php updated
+					* Table 'igcmds' 'attachments' @ lvl 0 added
+					
+	* [Feature] Rank -1 kicker
+					* ../cronjobs/limiters.php updated
+					* ../panel/settings.php updated
+					* Table 'settings' 'tool_minusone' added
+	
+	* [Update / UI] Server view updated + sort by score
+					* ../panel/server.php updated
+					* ../panel/ajax/serverInfo.php updated
+					
+	* [Update] Server view accessable for every user
+					* ../panel/server.php updated
+	
+	* [Update] The maplist now actually saves in the maplist.con file!
+					* ../panel/rotation.php updated
+					
+	* [Update] KD (%kd%) and position axes (%position%) added to cmdMessage and statmessage
+					* ../cronjobs/limiters.php updated
+					* ../classes/IgCommands.class.php updated
+					
+	* [Update] SQL.TXT updated
+	
+	* [Update] Language file updated
+					* ../core/lang/en.php updated
+	
+	* [Update] More efficient and faster item data fetching
+					* ../core/classes/IgCommands.class.php updated
+					* ../cronjobs/limiters.php updated
+					* ../panel/ajax/getLoadout.php updated
+					
+	* [Update] Added $listId (public)
+					* ../core/classes/Whitelist.class.php updated
+					
+	* [Update / UI] Styled logs
+					* ../panel/view-log.php updated
+					* ../core/cp_header.php updated
+					* ../core/classes/Log.class.php updated
+					
+	* [Improvement] Session now valid for one week
+					* ../core/classes/User.class.php updated
+					
+	* [Improvement] When banning / whitelisting a player in-game, the user id is stored properly too
+					* ../core/IgCommands.class.php updated
+					* ../cronjobs/igcmds.php updated
+	
+	* [UI] Tabs added
+					* ../panel/settings.php updated
+					
+	* [UI] Effects added
+					* ../panel/css/default.css updated
+					* ../index.php updated
+					
+	* [UI] Small UI improvements
+					* ../panel/css/default.css updated
+					
+	* [UI] Chat messages styled and colors given
+					* ../panel/server.php updated
+	
+	* [Bugfix] Fixed the checkboxes
+					* ../panel/igcmds/edit.php updated
+					* ../panel/igcmds/add.php updated
+					
+	* [Bugfix] Warn command issue fixed
+					* ../core/classes/IgCommands.class.php updated
+					
+	* [Bugfix] Fixed some URLs
+	
+	* [Bugfix] Private messages to player fixed
+					* ../core/classes/RCON/Chat.php updated
+					* ../cronjobs/limiters.php updated
+					* ../core/classes/IgCommands.class.php updated
+					
+	* [Update / Improvement / Bugfix] 	Updated cronjobs, this should prevent it from stopping suddendly, !!please
+										note that after this update, you need to set up the cronjobs a little
+										different than before.!!
+	
+22-12-2013 [v0.6.0]
+
+	HOW TO UPDATE TO THIS VERSION:
+	- You have to reinstall the whole tool
+
+	* [Feature] In-game commands added
+					* ../core/classes/IgCommands.class.php added
+					* ../cronjobs/igcmds.php updated
+					* ../panel/view-log?log=igcmds added
+	
+	* [Feature] Map rotation editor added
+					* ../core/classes/GameMaps.class.php added
+					* ../panel/rotation.php added
+	
+	* [Feature] Now possible to send servermessages
+					* ../panel/server.php updated
+	
+	* [Feature] Dual-slot limiter added
+					* ../cronjobs/limiters.php updated
+					* Table 'settings' 'tool_dsl' added
+					* ../panel/tool/dsl.php added
+					* ../panel/index.php updated
+					
+	* [Feature] Option to inverse the weapons of the weapon limiter
+					* ../cronjobs/limiters.php updated
+					* Table 'settings' 'tool_wl_inverse' added
+					* ../panel/tool/wl.php updated
+					
+	* [Feature] Quick overview of the server on the dashboard
+				And it automatically checks the server status LIVE
+					* ../panel/index.php updated
+	
+	* [Feature]	Ban reporting (via in-game command) to the BattlefieldTools Global Blacklist
+	
+	* [Feature] Now possible to change the limiter messages
+					* ../cronjobs/limiters.php updated
+					* Table 'settings' 'tool_{TOOL_ABBR}_msg' added
+					* ../panel/tool/*.php updated
+					
+	* [Feature] Makes connection with our main server to check if there's a new version available
+					* ../core/cp_header.php updated
+					* ../panel/checkVersion.php added
+					
+	* [Feature] RCON console added
+					* ../panel/tool/rcon.php added
+					* ../panel/ajax/rconConsole.php added
+					* ../core/cp_header.php updated
+	
+	* [Bugfix]	Ignore VIPs for shotgun limiter fixed
+	* [Bugfix]	[../panel/blacklist.php] Small icon fix (check => ban)
+	* [Bugfix]	[../core/cp_header.php] Logs were not translated, now it is
+	* [Bugfix]	[../index.php] Footer displayed an error (or was blank), fixed now
+	* [Bugfix]	Cleans all POST variables now
+					* ../install.php updated
+					* ../panel/ajax/server.php updated
+	
+	* [Bugfix]	Set the server port as integer, some users got an error about that @ fsockopen()
+					* ../core/init.php updated
+	
+	* [UI]		Updated to Bootstrap 3
+	* [UI]		Changed theme -> brighter, more clear
+	* [UI]		Updated to FontAwesome 4.0.3
+	* [UI]		Mobile and tablet friendly!
+	* [UI]		Favicon changed
+	* [UI]		Slight changes and details added
+	* [UI]		Slight improvement, by adding drag, drop, sort, resize, select and more (jQueryUI)
+					* ../panel/js/jquery-ui-1.10.3.custom.min.js added
+					* ../panel/css/jquery-ui-1.10.3.custom.min.css added
+	
+	* [Update]	install.php updated -> template and such
+	* [Update]	Khukri Blade added to the itemslist
+	* [Update]	Basra Rush added to the rotation list
+	* [Update]	Name changed to BattlefieldTools.com ServerTool
+	* [Update]	Developer added -> the whole BattlefieldTools.com team
+	* [Update]	SQL.TXT updated
+	* [Update]	Language files updated
+					* ../core/lang/en.php updated
+					* All other language files deleted -> You can download language files on BattlefieldTools.com
+	
+	* [Update]	../cronjobs/limiters.php -> more efficient and simple way to get the player's class
+	
+	* [DB]		Tables created: igcmds, log_igcmds, igvote
+	* [DB]		Table 'users', column 'rights_igcmds' added
+	
+	* [Other]	Added files to run in your browser (limiter and in-game commands)
+					* ../cronjobs/limiters_browser.php
+					* ../cronjobs/igcmds_browser.php
+	
+	* [Ohter]	Bash scripts added in ../cronjobs/
+					* igcmds.sh
+					* limiters.sh
+					
+	* [Other]	BattlefieldTools.com API is added
+					* ../core/classes/BTApi.class.php added
+					* ../install.php updated
+					* ../panel/settings.php updated
+					
+	MORE UPDATES:
+	
+	* [Other]	Removed HTACCESS, because it caused problems
+	
+	
+19-10-2013 [v0.4.1]
+	* First release
