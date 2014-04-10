@@ -1,0 +1,21 @@
+[10-Apr-2014 04:08:45 Europe/Berlin] PHP Warning:  file_get_contents(lang.tmp): failed to open stream: No such file or directory in C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\htdocs\xampp\index.php on line 2
+[10-Apr-2014 04:10:28 Europe/Berlin] PHP Warning:  mysqli::mysqli(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\htdocs\core\init.php on line 60
+[10-Apr-2014 04:13:58 Europe/Berlin] PHP Warning:  mysqli::mysqli(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\htdocs\core\init.php on line 60
+[10-Apr-2014 04:19:34 Europe/Berlin] PHP Warning:  mysqli::mysqli(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\htdocs\core\init.php on line 60
+[10-Apr-2014 04:19:36 Europe/Berlin] PHP Warning:  mysqli::mysqli(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\htdocs\core\init.php on line 60
+[10-Apr-2014 04:19:46 Europe/Berlin] PHP Warning:  mysqli::mysqli(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\htdocs\core\init.php on line 60
+[10-Apr-2014 04:48:37 Europe/Berlin] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'servertool'@'localhost' (using password: YES) in C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\htdocs\core\init.php on line 60
+[10-Apr-2014 04:49:03 Europe/Berlin] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'servertool'@'localhost' (using password: YES) in C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\htdocs\core\init.php on line 60
+[10-Apr-2014 04:49:04 Europe/Berlin] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'servertool'@'localhost' (using password: YES) in C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\htdocs\core\init.php on line 60
+[10-Apr-2014 04:49:04 Europe/Berlin] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'servertool'@'localhost' (using password: YES) in C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\htdocs\core\init.php on line 60
+[10-Apr-2014 04:56:12 Europe/Berlin] PHP Warning:  mysqli::mysqli(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\htdocs\core\init.php on line 60
+[10-Apr-2014 05:47:48 Europe/Berlin] PHP Warning:  mysqli::mysqli(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\htdocs\core\init.php on line 60
+[10-Apr-2014 05:47:50 Europe/Berlin] PHP Warning:  mysqli::mysqli(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\htdocs\core\init.php on line 60
