@@ -1,0 +1,311 @@
+[Thu Apr 10 03:08:39.770387 2014] [ssl:warn] [pid 11488:tid 416] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:08:39.938397 2014] [ssl:warn] [pid 11488:tid 416] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:08:39.981400 2014] [mpm_winnt:notice] [pid 11488:tid 416] AH00455: Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 configured -- resuming normal operations
+[Thu Apr 10 03:08:39.982399 2014] [mpm_winnt:notice] [pid 11488:tid 416] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Thu Apr 10 03:08:39.982399 2014] [core:notice] [pid 11488:tid 416] AH00094: Command line: 'c:\\users\\whelpton\\desktop\\windowsservertool\\0.7.2\\apache\\bin\\httpd.exe -d C:/Users/Whelpton/Desktop/WindowsServertool/0.7.2/apache'
+[Thu Apr 10 03:08:39.983399 2014] [mpm_winnt:notice] [pid 11488:tid 416] AH00418: Parent: Created child process 7620
+[Thu Apr 10 03:08:40.491429 2014] [ssl:warn] [pid 7620:tid 420] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:08:40.689440 2014] [ssl:warn] [pid 7620:tid 420] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:08:40.763444 2014] [mpm_winnt:notice] [pid 7620:tid 420] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 10 03:10:00.275997 2014] [ssl:warn] [pid 6060:tid 436] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:10:00.378004 2014] [core:warn] [pid 6060:tid 436] AH00098: pid file C:/Users/Whelpton/Desktop/WindowsServertool/0.7.2/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 10 03:10:00.483009 2014] [ssl:warn] [pid 6060:tid 436] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:10:00.517016 2014] [mpm_winnt:notice] [pid 6060:tid 436] AH00455: Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 configured -- resuming normal operations
+[Thu Apr 10 03:10:00.517016 2014] [mpm_winnt:notice] [pid 6060:tid 436] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Thu Apr 10 03:10:00.517016 2014] [core:notice] [pid 6060:tid 436] AH00094: Command line: 'c:\\users\\whelpton\\desktop\\windowsservertool\\0.7.2\\apache\\bin\\httpd.exe -d C:/Users/Whelpton/Desktop/WindowsServertool/0.7.2/apache'
+[Thu Apr 10 03:10:00.519011 2014] [mpm_winnt:notice] [pid 6060:tid 436] AH00418: Parent: Created child process 13084
+[Thu Apr 10 03:10:00.983043 2014] [ssl:warn] [pid 13084:tid 408] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:10:01.178049 2014] [ssl:warn] [pid 13084:tid 408] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:10:01.213056 2014] [mpm_winnt:notice] [pid 13084:tid 408] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 10 03:17:10.451779 2014] [ssl:warn] [pid 6528:tid 388] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:17:10.700798 2014] [core:warn] [pid 6528:tid 388] AH00098: pid file C:/Users/Whelpton/Desktop/WindowsServertool/0.7.2/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 10 03:17:10.806799 2014] [ssl:warn] [pid 6528:tid 388] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:17:10.839801 2014] [mpm_winnt:notice] [pid 6528:tid 388] AH00455: Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 configured -- resuming normal operations
+[Thu Apr 10 03:17:10.839801 2014] [mpm_winnt:notice] [pid 6528:tid 388] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Thu Apr 10 03:17:10.839801 2014] [core:notice] [pid 6528:tid 388] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/Whelpton/Desktop/WindowsServertool/0.7.2/apache'
+[Thu Apr 10 03:17:10.841802 2014] [mpm_winnt:notice] [pid 6528:tid 388] AH00418: Parent: Created child process 8012
+Apache server shutdown initiated...
+sl:warn] [pid 8012:tid 396] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:17:11.499844 2014] [ssl:warn] [pid 8012:tid 396] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:17:11.533846 2014] [mpm_winnt:notice] [pid 8012:tid 396] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 10 03:17:41.350548 2014] [mpm_winnt:notice] [pid 6528:tid 388] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Apr 10 03:17:43.352663 2014] [mpm_winnt:notice] [pid 8012:tid 396] AH00364: Child: All worker threads have exited.
+[Thu Apr 10 03:17:43.378664 2014] [mpm_winnt:notice] [pid 6528:tid 388] AH00430: Parent: Child process 8012 exited successfully.
+[Thu Apr 10 03:17:44.324719 2014] [ssl:warn] [pid 6604:tid 408] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:17:44.515730 2014] [ssl:warn] [pid 6604:tid 408] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:17:44.548731 2014] [mpm_winnt:notice] [pid 6604:tid 408] AH00455: Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 configured -- resuming normal operations
+[Thu Apr 10 03:17:44.548731 2014] [mpm_winnt:notice] [pid 6604:tid 408] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Thu Apr 10 03:17:44.548731 2014] [core:notice] [pid 6604:tid 408] AH00094: Command line: 'c:\\users\\whelpton\\desktop\\windowsservertool\\0.7.2\\apache\\bin\\httpd.exe -d C:/Users/Whelpton/Desktop/WindowsServertool/0.7.2/apache'
+[Thu Apr 10 03:17:44.550731 2014] [mpm_winnt:notice] [pid 6604:tid 408] AH00418: Parent: Created child process 10844
+[Thu Apr 10 03:17:44.991756 2014] [ssl:warn] [pid 10844:tid 400] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:17:45.187768 2014] [ssl:warn] [pid 10844:tid 400] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:17:45.221775 2014] [mpm_winnt:notice] [pid 10844:tid 400] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 10 03:18:05.827950 2014] [ssl:warn] [pid 13704:tid 420] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:18:05.917960 2014] [core:warn] [pid 13704:tid 420] AH00098: pid file C:/Users/Whelpton/Desktop/WindowsServertool/0.7.2/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 10 03:18:06.023961 2014] [ssl:warn] [pid 13704:tid 420] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:18:06.056963 2014] [mpm_winnt:notice] [pid 13704:tid 420] AH00455: Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 configured -- resuming normal operations
+[Thu Apr 10 03:18:06.056963 2014] [mpm_winnt:notice] [pid 13704:tid 420] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Thu Apr 10 03:18:06.056963 2014] [core:notice] [pid 13704:tid 420] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/Whelpton/Desktop/WindowsServertool/0.7.2/apache'
+[Thu Apr 10 03:18:06.058964 2014] [mpm_winnt:notice] [pid 13704:tid 420] AH00418: Parent: Created child process 12228
+[Thu Apr 10 03:18:06.466986 2014] [ssl:warn] [pid 12228:tid 340] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:18:06.658998 2014] [ssl:warn] [pid 12228:tid 340] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:18:06.693005 2014] [mpm_winnt:notice] [pid 12228:tid 340] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 10 03:18:36.721725 2014] [ssl:warn] [pid 12148:tid 388] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:18:36.790728 2014] [core:warn] [pid 12148:tid 388] AH00098: pid file C:/Users/Whelpton/Desktop/WindowsServertool/0.7.2/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 10 03:18:36.894735 2014] [ssl:warn] [pid 12148:tid 388] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:18:36.927736 2014] [mpm_winnt:notice] [pid 12148:tid 388] AH00455: Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 configured -- resuming normal operations
+[Thu Apr 10 03:18:36.927736 2014] [mpm_winnt:notice] [pid 12148:tid 388] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Thu Apr 10 03:18:36.927736 2014] [core:notice] [pid 12148:tid 388] AH00094: Command line: 'c:\\users\\whelpton\\desktop\\windowsservertool\\0.7.2\\apache\\bin\\httpd.exe -d C:/Users/Whelpton/Desktop/WindowsServertool/0.7.2/apache'
+[Thu Apr 10 03:18:36.929731 2014] [mpm_winnt:notice] [pid 12148:tid 388] AH00418: Parent: Created child process 1960
+[Thu Apr 10 03:18:37.356756 2014] [ssl:warn] [pid 1960:tid 392] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:18:37.524767 2014] [ssl:warn] [pid 1960:tid 392] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:18:37.558772 2014] [mpm_winnt:notice] [pid 1960:tid 392] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 10 03:19:27.710641 2014] [ssl:warn] [pid 10036:tid 324] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:19:27.788644 2014] [core:warn] [pid 10036:tid 324] AH00098: pid file C:/Users/Whelpton/Desktop/WindowsServertool/0.7.2/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 10 03:19:27.891650 2014] [ssl:warn] [pid 10036:tid 324] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:19:27.924651 2014] [mpm_winnt:notice] [pid 10036:tid 324] AH00455: Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 configured -- resuming normal operations
+[Thu Apr 10 03:19:27.924651 2014] [mpm_winnt:notice] [pid 10036:tid 324] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Thu Apr 10 03:19:27.924651 2014] [core:notice] [pid 10036:tid 324] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/Whelpton/Desktop/WindowsServertool/0.7.2/apache'
+[Thu Apr 10 03:19:27.925657 2014] [mpm_winnt:notice] [pid 10036:tid 324] AH00418: Parent: Created child process 1872
+Apache server shutdown initiated...
+sl:warn] [pid 1872:tid 392] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:19:28.549687 2014] [ssl:warn] [pid 1872:tid 392] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:19:28.583689 2014] [mpm_winnt:notice] [pid 1872:tid 392] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 10 03:19:57.472343 2014] [mpm_winnt:notice] [pid 10036:tid 324] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Apr 10 03:19:59.474458 2014] [mpm_winnt:notice] [pid 1872:tid 392] AH00364: Child: All worker threads have exited.
+[Thu Apr 10 03:19:59.507460 2014] [mpm_winnt:notice] [pid 10036:tid 324] AH00430: Parent: Child process 1872 exited successfully.
+[Thu Apr 10 03:20:25.548952 2014] [ssl:warn] [pid 12572:tid 436] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:20:25.755963 2014] [ssl:warn] [pid 12572:tid 436] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:20:25.789966 2014] [mpm_winnt:notice] [pid 12572:tid 436] AH00455: Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 configured -- resuming normal operations
+[Thu Apr 10 03:20:25.789966 2014] [mpm_winnt:notice] [pid 12572:tid 436] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Thu Apr 10 03:20:25.789966 2014] [core:notice] [pid 12572:tid 436] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/Whelpton/Desktop/WindowsServertool/0.7.2/apache'
+[Thu Apr 10 03:20:25.790965 2014] [mpm_winnt:notice] [pid 12572:tid 436] AH00418: Parent: Created child process 9768
+Apache server interrupted...
+014] [ssl:warn] [pid 9768:tid 396] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:20:26.419001 2014] [ssl:warn] [pid 9768:tid 396] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:20:26.453003 2014] [mpm_winnt:notice] [pid 9768:tid 396] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 10 03:20:27.721076 2014] [mpm_winnt:notice] [pid 12572:tid 436] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server shutdown initiated...
+[Thu Apr 10 03:20:29.723191 2014] [mpm_winnt:notice] [pid 9768:tid 396] AH00364: Child: All worker threads have exited.
+[Thu Apr 10 03:20:29.753192 2014] [mpm_winnt:notice] [pid 12572:tid 436] AH00430: Parent: Child process 9768 exited successfully.
+[Thu Apr 10 03:20:37.775657 2014] [ssl:warn] [pid 12940:tid 384] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:20:37.981669 2014] [ssl:warn] [pid 12940:tid 384] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:20:38.014670 2014] [mpm_winnt:notice] [pid 12940:tid 384] AH00455: Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 configured -- resuming normal operations
+[Thu Apr 10 03:20:38.014670 2014] [mpm_winnt:notice] [pid 12940:tid 384] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Thu Apr 10 03:20:38.014670 2014] [core:notice] [pid 12940:tid 384] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/Whelpton/Desktop/WindowsServertool/0.7.2/apache'
+[Thu Apr 10 03:20:38.016665 2014] [mpm_winnt:notice] [pid 12940:tid 384] AH00418: Parent: Created child process 12656
+Apache server shutdown initiated...
+sl:warn] [pid 12656:tid 392] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:20:38.654707 2014] [ssl:warn] [pid 12656:tid 392] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:20:38.688704 2014] [mpm_winnt:notice] [pid 12656:tid 392] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 10 03:20:58.596844 2014] [mpm_winnt:notice] [pid 12940:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Apr 10 03:21:00.598964 2014] [mpm_winnt:notice] [pid 12656:tid 392] AH00364: Child: All worker threads have exited.
+[Thu Apr 10 03:21:00.625960 2014] [mpm_winnt:notice] [pid 12940:tid 384] AH00430: Parent: Child process 12656 exited successfully.
+[Thu Apr 10 03:22:03.909584 2014] [ssl:warn] [pid 9740:tid 404] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:22:04.093595 2014] [ssl:warn] [pid 9740:tid 404] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:22:04.126597 2014] [mpm_winnt:notice] [pid 9740:tid 404] AH00455: Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 configured -- resuming normal operations
+[Thu Apr 10 03:22:04.126597 2014] [mpm_winnt:notice] [pid 9740:tid 404] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Thu Apr 10 03:22:04.126597 2014] [core:notice] [pid 9740:tid 404] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/Whelpton/Desktop/WindowsServertool/0.7.2/apache'
+[Thu Apr 10 03:22:04.127597 2014] [mpm_winnt:notice] [pid 9740:tid 404] AH00418: Parent: Created child process 7784
+Apache server shutdown initiated...
+sl:warn] [pid 7784:tid 408] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:22:04.844144 2014] [ssl:warn] [pid 7784:tid 408] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:22:04.877661 2014] [mpm_winnt:notice] [pid 7784:tid 408] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 10 03:22:14.298195 2014] [mpm_winnt:notice] [pid 9740:tid 404] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Apr 10 03:22:16.300310 2014] [mpm_winnt:notice] [pid 7784:tid 408] AH00364: Child: All worker threads have exited.
+[Thu Apr 10 03:22:16.327312 2014] [mpm_winnt:notice] [pid 9740:tid 404] AH00430: Parent: Child process 7784 exited successfully.
+[Thu Apr 10 03:23:21.340035 2014] [ssl:warn] [pid 11664:tid 400] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:23:21.539052 2014] [ssl:warn] [pid 11664:tid 400] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:23:21.572048 2014] [mpm_winnt:notice] [pid 11664:tid 400] AH00455: Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 configured -- resuming normal operations
+[Thu Apr 10 03:23:21.572048 2014] [mpm_winnt:notice] [pid 11664:tid 400] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Thu Apr 10 03:23:21.572048 2014] [core:notice] [pid 11664:tid 400] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/Whelpton/Desktop/WindowsServertool/0.7.2/apache'
+[Thu Apr 10 03:23:21.573053 2014] [mpm_winnt:notice] [pid 11664:tid 400] AH00418: Parent: Created child process 9204
+Apache server shutdown initiated...
+sl:warn] [pid 9204:tid 412] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:23:22.232086 2014] [ssl:warn] [pid 9204:tid 412] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:23:22.268088 2014] [mpm_winnt:notice] [pid 9204:tid 412] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 10 03:23:28.869471 2014] [mpm_winnt:notice] [pid 11664:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Apr 10 03:23:30.871586 2014] [mpm_winnt:notice] [pid 9204:tid 412] AH00364: Child: All worker threads have exited.
+[Thu Apr 10 03:23:30.897582 2014] [mpm_winnt:notice] [pid 11664:tid 400] AH00430: Parent: Child process 9204 exited successfully.
+[Thu Apr 10 03:23:42.945272 2014] [ssl:warn] [pid 928:tid 428] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:23:43.369301 2014] [ssl:warn] [pid 928:tid 428] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:23:43.402303 2014] [mpm_winnt:notice] [pid 928:tid 428] AH00455: Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 configured -- resuming normal operations
+[Thu Apr 10 03:23:43.403299 2014] [mpm_winnt:notice] [pid 928:tid 428] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Thu Apr 10 03:23:43.403299 2014] [core:notice] [pid 928:tid 428] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/Whelpton/Desktop/WindowsServertool/0.7.2/apache'
+[Thu Apr 10 03:23:43.404298 2014] [mpm_winnt:notice] [pid 928:tid 428] AH00418: Parent: Created child process 4512
+Apache server shutdown initiated...
+sl:warn] [pid 4512:tid 392] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:23:44.131345 2014] [ssl:warn] [pid 4512:tid 392] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:23:44.165342 2014] [mpm_winnt:notice] [pid 4512:tid 392] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 10 03:24:42.506688 2014] [mpm_winnt:notice] [pid 928:tid 428] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Apr 10 03:24:44.508798 2014] [mpm_winnt:notice] [pid 4512:tid 392] AH00364: Child: All worker threads have exited.
+[Thu Apr 10 03:24:44.536799 2014] [mpm_winnt:notice] [pid 928:tid 428] AH00430: Parent: Child process 4512 exited successfully.
+[Thu Apr 10 03:24:46.525913 2014] [ssl:warn] [pid 13612:tid 416] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:24:46.750926 2014] [ssl:warn] [pid 13612:tid 416] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:24:46.782928 2014] [mpm_winnt:notice] [pid 13612:tid 416] AH00455: Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 configured -- resuming normal operations
+[Thu Apr 10 03:24:46.782928 2014] [mpm_winnt:notice] [pid 13612:tid 416] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Thu Apr 10 03:24:46.783928 2014] [core:notice] [pid 13612:tid 416] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/Whelpton/Desktop/WindowsServertool/0.7.2/apache'
+[Thu Apr 10 03:24:46.784928 2014] [mpm_winnt:notice] [pid 13612:tid 416] AH00418: Parent: Created child process 748
+Apache server shutdown initiated...
+sl:warn] [pid 748:tid 396] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:24:47.451966 2014] [ssl:warn] [pid 748:tid 396] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:24:47.486969 2014] [mpm_winnt:notice] [pid 748:tid 396] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 10 03:29:05.949769 2014] [mpm_winnt:notice] [pid 13612:tid 416] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Apr 10 03:29:07.951889 2014] [mpm_winnt:notice] [pid 748:tid 396] AH00364: Child: All worker threads have exited.
+[Thu Apr 10 03:29:07.977891 2014] [mpm_winnt:notice] [pid 13612:tid 416] AH00430: Parent: Child process 748 exited successfully.
+[Thu Apr 10 03:29:12.707156 2014] [ssl:warn] [pid 9472:tid 424] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:29:12.933175 2014] [ssl:warn] [pid 9472:tid 424] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:29:12.965176 2014] [mpm_winnt:notice] [pid 9472:tid 424] AH00455: Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 configured -- resuming normal operations
+[Thu Apr 10 03:29:12.965176 2014] [mpm_winnt:notice] [pid 9472:tid 424] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Thu Apr 10 03:29:12.965176 2014] [core:notice] [pid 9472:tid 424] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/Whelpton/Desktop/WindowsServertool/0.7.2/apache'
+[Thu Apr 10 03:29:12.966172 2014] [mpm_winnt:notice] [pid 9472:tid 424] AH00418: Parent: Created child process 11392
+Apache server shutdown initiated...
+sl:warn] [pid 11392:tid 404] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:29:13.679212 2014] [ssl:warn] [pid 11392:tid 404] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:29:13.713214 2014] [mpm_winnt:notice] [pid 11392:tid 404] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 10 03:29:28.576070 2014] [mpm_winnt:notice] [pid 9472:tid 424] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Apr 10 03:29:30.578185 2014] [mpm_winnt:notice] [pid 11392:tid 404] AH00364: Child: All worker threads have exited.
+[Thu Apr 10 03:29:30.604181 2014] [mpm_winnt:notice] [pid 9472:tid 424] AH00430: Parent: Child process 11392 exited successfully.
+[Thu Apr 10 03:30:24.207251 2014] [ssl:warn] [pid 10804:tid 432] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:30:24.402262 2014] [ssl:warn] [pid 10804:tid 432] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:30:24.435264 2014] [mpm_winnt:notice] [pid 10804:tid 432] AH00455: Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 configured -- resuming normal operations
+[Thu Apr 10 03:30:24.435264 2014] [mpm_winnt:notice] [pid 10804:tid 432] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Thu Apr 10 03:30:24.435264 2014] [core:notice] [pid 10804:tid 432] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/Whelpton/Desktop/WindowsServertool/0.7.2/apache'
+[Thu Apr 10 03:30:24.436264 2014] [mpm_winnt:notice] [pid 10804:tid 432] AH00418: Parent: Created child process 12832
+Apache server shutdown initiated...
+sl:warn] [pid 12832:tid 392] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:30:25.185312 2014] [ssl:warn] [pid 12832:tid 392] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:30:25.218309 2014] [mpm_winnt:notice] [pid 12832:tid 392] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 10 03:30:46.192510 2014] [mpm_winnt:notice] [pid 10804:tid 432] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Apr 10 03:30:48.194630 2014] [mpm_winnt:notice] [pid 12832:tid 392] AH00364: Child: All worker threads have exited.
+[Thu Apr 10 03:30:48.220627 2014] [mpm_winnt:notice] [pid 10804:tid 432] AH00430: Parent: Child process 12832 exited successfully.
+[Thu Apr 10 03:31:49.521136 2014] [ssl:warn] [pid 13916:tid 424] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:31:49.766151 2014] [ssl:warn] [pid 13916:tid 424] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:31:49.798158 2014] [mpm_winnt:notice] [pid 13916:tid 424] AH00455: Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 configured -- resuming normal operations
+[Thu Apr 10 03:31:49.799157 2014] [mpm_winnt:notice] [pid 13916:tid 424] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Thu Apr 10 03:31:49.799157 2014] [core:notice] [pid 13916:tid 424] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/Whelpton/Desktop/WindowsServertool/0.7.2/apache'
+[Thu Apr 10 03:31:49.800153 2014] [mpm_winnt:notice] [pid 13916:tid 424] AH00418: Parent: Created child process 13080
+Apache server shutdown initiated...
+sl:warn] [pid 13080:tid 392] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:31:50.480191 2014] [ssl:warn] [pid 13080:tid 392] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:31:50.513193 2014] [mpm_winnt:notice] [pid 13080:tid 392] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 10 03:32:04.938020 2014] [mpm_winnt:notice] [pid 13916:tid 424] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Apr 10 03:32:06.940139 2014] [mpm_winnt:notice] [pid 13080:tid 392] AH00364: Child: All worker threads have exited.
+[Thu Apr 10 03:32:06.966136 2014] [mpm_winnt:notice] [pid 13916:tid 424] AH00430: Parent: Child process 13080 exited successfully.
+[Thu Apr 10 03:36:28.982140 2014] [ssl:warn] [pid 10524:tid 384] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:36:29.289163 2014] [ssl:warn] [pid 10524:tid 384] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:36:29.322160 2014] [mpm_winnt:notice] [pid 10524:tid 384] AH00455: Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 configured -- resuming normal operations
+[Thu Apr 10 03:36:29.322160 2014] [mpm_winnt:notice] [pid 10524:tid 384] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Thu Apr 10 03:36:29.322160 2014] [core:notice] [pid 10524:tid 384] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/Whelpton/Desktop/WindowsServertool/0.7.2/apache'
+[Thu Apr 10 03:36:29.324160 2014] [mpm_winnt:notice] [pid 10524:tid 384] AH00418: Parent: Created child process 6316
+Apache server shutdown initiated...
+sl:warn] [pid 6316:tid 396] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:36:29.998198 2014] [ssl:warn] [pid 6316:tid 396] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:36:30.031200 2014] [mpm_winnt:notice] [pid 6316:tid 396] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 10 03:42:17.671108 2014] [mpm_winnt:notice] [pid 10524:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Apr 10 03:42:19.673228 2014] [mpm_winnt:notice] [pid 6316:tid 396] AH00364: Child: All worker threads have exited.
+[Thu Apr 10 03:42:19.700224 2014] [mpm_winnt:notice] [pid 10524:tid 384] AH00430: Parent: Child process 6316 exited successfully.
+[Thu Apr 10 03:42:23.401436 2014] [ssl:warn] [pid 1608:tid 396] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:42:23.687453 2014] [ssl:warn] [pid 1608:tid 396] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:42:23.720455 2014] [mpm_winnt:notice] [pid 1608:tid 396] AH00455: Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 configured -- resuming normal operations
+[Thu Apr 10 03:42:23.720455 2014] [mpm_winnt:notice] [pid 1608:tid 396] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Thu Apr 10 03:42:23.720455 2014] [core:notice] [pid 1608:tid 396] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/Whelpton/Desktop/WindowsServertool/0.7.2/apache'
+[Thu Apr 10 03:42:23.722455 2014] [mpm_winnt:notice] [pid 1608:tid 396] AH00418: Parent: Created child process 5300
+Apache server shutdown initiated...
+sl:warn] [pid 5300:tid 396] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:42:24.421495 2014] [ssl:warn] [pid 5300:tid 396] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:42:24.455497 2014] [mpm_winnt:notice] [pid 5300:tid 396] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 10 03:46:28.870499 2014] [mpm_winnt:notice] [pid 1608:tid 396] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Apr 10 03:46:30.872614 2014] [mpm_winnt:notice] [pid 5300:tid 396] AH00364: Child: All worker threads have exited.
+[Thu Apr 10 03:46:30.898610 2014] [mpm_winnt:notice] [pid 1608:tid 396] AH00430: Parent: Child process 5300 exited successfully.
+[Thu Apr 10 03:46:53.519911 2014] [ssl:warn] [pid 7476:tid 388] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:46:53.715917 2014] [ssl:warn] [pid 7476:tid 388] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:46:53.747919 2014] [mpm_winnt:notice] [pid 7476:tid 388] AH00455: Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 configured -- resuming normal operations
+[Thu Apr 10 03:46:53.747919 2014] [mpm_winnt:notice] [pid 7476:tid 388] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Thu Apr 10 03:46:53.747919 2014] [core:notice] [pid 7476:tid 388] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/Whelpton/Desktop/WindowsServertool/0.7.2/apache'
+[Thu Apr 10 03:46:53.749919 2014] [mpm_winnt:notice] [pid 7476:tid 388] AH00418: Parent: Created child process 9700
+Apache server shutdown initiated...
+sl:warn] [pid 9700:tid 392] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:46:54.441963 2014] [ssl:warn] [pid 9700:tid 392] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:46:54.474960 2014] [mpm_winnt:notice] [pid 9700:tid 392] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 10 03:55:55.365940 2014] [mpm_winnt:notice] [pid 7476:tid 388] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Apr 10 03:55:57.368049 2014] [mpm_winnt:notice] [pid 9700:tid 392] AH00364: Child: All worker threads have exited.
+[Thu Apr 10 03:55:57.403052 2014] [mpm_winnt:notice] [pid 7476:tid 388] AH00430: Parent: Child process 9700 exited successfully.
+[Thu Apr 10 03:56:00.256216 2014] [ssl:warn] [pid 6904:tid 392] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:56:00.471228 2014] [ssl:warn] [pid 6904:tid 392] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:56:00.504229 2014] [mpm_winnt:notice] [pid 6904:tid 392] AH00455: Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 configured -- resuming normal operations
+[Thu Apr 10 03:56:00.504229 2014] [mpm_winnt:notice] [pid 6904:tid 392] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Thu Apr 10 03:56:00.504229 2014] [core:notice] [pid 6904:tid 392] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/Whelpton/Desktop/WindowsServertool/0.7.2/apache'
+[Thu Apr 10 03:56:00.506230 2014] [mpm_winnt:notice] [pid 6904:tid 392] AH00418: Parent: Created child process 9264
+Apache server shutdown initiated...
+sl:warn] [pid 9264:tid 392] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:56:01.152266 2014] [ssl:warn] [pid 9264:tid 392] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 03:56:01.185268 2014] [mpm_winnt:notice] [pid 9264:tid 392] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 10 03:56:15.584098 2014] [mpm_winnt:notice] [pid 6904:tid 392] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Apr 10 03:56:19.606328 2014] [mpm_winnt:notice] [pid 9264:tid 392] AH00364: Child: All worker threads have exited.
+[Thu Apr 10 03:56:19.636325 2014] [mpm_winnt:notice] [pid 6904:tid 392] AH00430: Parent: Child process 9264 exited successfully.
+[Thu Apr 10 04:04:27.139242 2014] [ssl:warn] [pid 10580:tid 412] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 04:04:27.342259 2014] [ssl:warn] [pid 10580:tid 412] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 04:04:27.375261 2014] [mpm_winnt:notice] [pid 10580:tid 412] AH00455: Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 configured -- resuming normal operations
+[Thu Apr 10 04:04:27.375261 2014] [mpm_winnt:notice] [pid 10580:tid 412] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Thu Apr 10 04:04:27.375261 2014] [core:notice] [pid 10580:tid 412] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/Whelpton/Desktop/WindowsServertool/0.7.2/apache'
+[Thu Apr 10 04:04:27.377256 2014] [mpm_winnt:notice] [pid 10580:tid 412] AH00418: Parent: Created child process 4424
+Apache server shutdown initiated...
+sl:warn] [pid 4424:tid 396] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 04:04:28.105303 2014] [ssl:warn] [pid 4424:tid 396] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 04:04:28.138300 2014] [mpm_winnt:notice] [pid 4424:tid 396] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 10 04:12:26.172675 2014] [mpm_winnt:notice] [pid 10580:tid 412] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Apr 10 04:12:28.174795 2014] [mpm_winnt:notice] [pid 4424:tid 396] AH00364: Child: All worker threads have exited.
+[Thu Apr 10 04:12:28.200792 2014] [mpm_winnt:notice] [pid 10580:tid 412] AH00430: Parent: Child process 4424 exited successfully.
+[Thu Apr 10 04:14:36.530140 2014] [ssl:warn] [pid 10212:tid 416] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 04:14:36.731152 2014] [ssl:warn] [pid 10212:tid 416] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 04:14:36.764159 2014] [mpm_winnt:notice] [pid 10212:tid 416] AH00455: Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 configured -- resuming normal operations
+[Thu Apr 10 04:14:36.764159 2014] [mpm_winnt:notice] [pid 10212:tid 416] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Thu Apr 10 04:14:36.764159 2014] [core:notice] [pid 10212:tid 416] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/Whelpton/Desktop/WindowsServertool/0.7.2/apache'
+[Thu Apr 10 04:14:36.765159 2014] [mpm_winnt:notice] [pid 10212:tid 416] AH00418: Parent: Created child process 9144
+Apache server shutdown initiated...
+sl:warn] [pid 9144:tid 400] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 04:14:37.457193 2014] [ssl:warn] [pid 9144:tid 400] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 04:14:37.491195 2014] [mpm_winnt:notice] [pid 9144:tid 400] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 10 04:18:06.764180 2014] [mpm_winnt:notice] [pid 10212:tid 416] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Apr 10 04:18:08.766299 2014] [mpm_winnt:notice] [pid 9144:tid 400] AH00364: Child: All worker threads have exited.
+[Thu Apr 10 04:18:08.791296 2014] [mpm_winnt:notice] [pid 10212:tid 416] AH00430: Parent: Child process 9144 exited successfully.
+[Thu Apr 10 04:40:38.526590 2014] [ssl:warn] [pid 10268:tid 392] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 04:40:38.743604 2014] [ssl:warn] [pid 10268:tid 392] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 04:40:38.777605 2014] [mpm_winnt:notice] [pid 10268:tid 392] AH00455: Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 configured -- resuming normal operations
+[Thu Apr 10 04:40:38.777605 2014] [mpm_winnt:notice] [pid 10268:tid 392] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Thu Apr 10 04:40:38.777605 2014] [core:notice] [pid 10268:tid 392] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/Whelpton/Desktop/WindowsServertool/0.7.2/apache'
+[Thu Apr 10 04:40:38.779605 2014] [mpm_winnt:notice] [pid 10268:tid 392] AH00418: Parent: Created child process 14156
+Apache server shutdown initiated...
+sl:warn] [pid 14156:tid 400] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 04:40:39.477650 2014] [ssl:warn] [pid 14156:tid 400] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 04:40:39.510647 2014] [mpm_winnt:notice] [pid 14156:tid 400] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 10 04:40:58.517735 2014] [mpm_winnt:notice] [pid 10268:tid 392] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Apr 10 04:41:13.953625 2014] [mpm_winnt:notice] [pid 14156:tid 400] AH00364: Child: All worker threads have exited.
+[Thu Apr 10 04:47:45.672052 2014] [ssl:warn] [pid 11212:tid 408] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 04:47:48.131193 2014] [core:warn] [pid 11212:tid 408] AH00098: pid file C:/Users/Whelpton/Desktop/WindowsServertool/0.7.2/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 10 04:47:48.285201 2014] [ssl:warn] [pid 11212:tid 408] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 04:47:48.323204 2014] [mpm_winnt:notice] [pid 11212:tid 408] AH00455: Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 configured -- resuming normal operations
+[Thu Apr 10 04:47:48.323204 2014] [mpm_winnt:notice] [pid 11212:tid 408] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Thu Apr 10 04:47:48.323204 2014] [core:notice] [pid 11212:tid 408] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/Whelpton/Desktop/WindowsServertool/0.7.2/apache'
+[Thu Apr 10 04:47:48.325204 2014] [mpm_winnt:notice] [pid 11212:tid 408] AH00418: Parent: Created child process 10608
+Apache server shutdown initiated...
+sl:warn] [pid 10608:tid 404] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 04:47:51.160366 2014] [ssl:warn] [pid 10608:tid 404] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 04:47:51.195373 2014] [mpm_winnt:notice] [pid 10608:tid 404] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 10 04:47:58.401780 2014] [mpm_winnt:notice] [pid 11212:tid 408] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Apr 10 04:48:00.404896 2014] [mpm_winnt:notice] [pid 10608:tid 404] AH00364: Child: All worker threads have exited.
+[Thu Apr 10 04:48:00.433897 2014] [mpm_winnt:notice] [pid 11212:tid 408] AH00430: Parent: Child process 10608 exited successfully.
+[Thu Apr 10 05:00:10.778722 2014] [ssl:warn] [pid 14156:tid 400] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 05:00:11.181745 2014] [ssl:warn] [pid 14156:tid 400] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 05:00:11.215747 2014] [mpm_winnt:notice] [pid 14156:tid 400] AH00455: Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 configured -- resuming normal operations
+[Thu Apr 10 05:00:11.215747 2014] [mpm_winnt:notice] [pid 14156:tid 400] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Thu Apr 10 05:00:11.215747 2014] [core:notice] [pid 14156:tid 400] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/Whelpton/Documents/GitHub/bfp4f-servertool-windows/apache'
+[Thu Apr 10 05:00:11.218748 2014] [mpm_winnt:notice] [pid 14156:tid 400] AH00418: Parent: Created child process 12200
+Apache server shutdown initiated...
+sl:warn] [pid 12200:tid 396] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 05:00:12.182802 2014] [ssl:warn] [pid 12200:tid 396] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Thu Apr 10 05:00:12.217804 2014] [mpm_winnt:notice] [pid 12200:tid 396] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 10 05:00:20.449276 2014] [mpm_winnt:notice] [pid 14156:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Apr 10 05:00:22.451395 2014] [mpm_winnt:notice] [pid 12200:tid 396] AH00364: Child: All worker threads have exited.
+[Thu Apr 10 05:00:22.478392 2014] [mpm_winnt:notice] [pid 14156:tid 400] AH00430: Parent: Child process 12200 exited successfully.
