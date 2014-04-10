@@ -1,0 +1,1448 @@
+2014-04-10 03:05:54 11820 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 03:05:54 249c InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 03:05:54 11820 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 03:05:54 11820 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 03:05:54 11820 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 03:05:54 11820 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 03:05:54 11820 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 03:05:54 11820 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 03:05:54 11820 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 03:05:55 11820 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-04-10 03:05:55 11820 [Warning] InnoDB: Resizing redo log from 2*3072 to 2*320 pages, LSN=1625987
+2014-04-10 03:05:55 11820 [Warning] InnoDB: Starting to delete and rewrite log files.
+2014-04-10 03:05:55 11820 [Note] InnoDB: Setting log file C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\mysql\data\ib_logfile101 size to 5 MB
+2014-04-10 03:05:57 11820 [Note] InnoDB: Setting log file C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\mysql\data\ib_logfile1 size to 5 MB
+2014-04-10 03:05:58 11820 [Note] InnoDB: Renaming log file C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\mysql\data\ib_logfile101 to C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\mysql\data\ib_logfile0
+2014-04-10 03:05:58 11820 [Warning] InnoDB: New log files created, LSN=1625987
+2014-04-10 03:05:58 11820 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-04-10 03:05:58 11820 [Note] InnoDB: Waiting for purge to start
+2014-04-10 03:05:59 11820 [Note] InnoDB: 5.6.16 started; log sequence number 1625987
+2014-04-10 03:05:59 11820 [Warning] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: a8a416c7-c054-11e3-a903-00241dded3be.
+2014-04-10 03:05:59 11820 [Note] Server hostname (bind-address): '*'; port: 3306
+2014-04-10 03:05:59 11820 [Note] IPv6 is available.
+2014-04-10 03:05:59 11820 [Note]   - '::' resolves to '::';
+2014-04-10 03:05:59 11820 [Note] Server socket created on IP: '::'.
+2014-04-10 03:05:59 11820 [Note] Event Scheduler: Loaded 0 events
+2014-04-10 03:05:59 11820 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '5.6.16'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2014-04-10 03:06:12 11820 [Note] mysql\bin\mysqld.exe: Normal shutdown
+
+2014-04-10 03:06:12 11820 [Note] Giving 0 client threads a chance to die gracefully
+2014-04-10 03:06:12 11820 [Note] Event Scheduler: Purging the queue. 0 events
+2014-04-10 03:06:12 11820 [Note] Shutting down slave threads
+2014-04-10 03:06:12 11820 [Note] Forcefully disconnecting 0 remaining clients
+2014-04-10 03:06:12 11820 [Note] Binlog end
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'partition'
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'INNODB_METRICS'
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'INNODB_CMP'
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'INNODB_LOCKS'
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'INNODB_TRX'
+2014-04-10 03:06:12 11820 [Note] Shutting down plugin 'InnoDB'
+2014-04-10 03:06:12 11820 [Note] InnoDB: FTS optimize thread exiting.
+2014-04-10 03:06:12 11820 [Note] InnoDB: Starting shutdown...
+2014-04-10 03:06:14 11820 [Note] InnoDB: Shutdown completed; log sequence number 1626134
+2014-04-10 03:06:14 11820 [Note] Shutting down plugin 'BLACKHOLE'
+2014-04-10 03:06:14 11820 [Note] Shutting down plugin 'ARCHIVE'
+2014-04-10 03:06:14 11820 [Note] Shutting down plugin 'MRG_MYISAM'
+2014-04-10 03:06:14 11820 [Note] Shutting down plugin 'MyISAM'
+2014-04-10 03:06:14 11820 [Note] Shutting down plugin 'MEMORY'
+2014-04-10 03:06:14 11820 [Note] Shutting down plugin 'CSV'
+2014-04-10 03:06:14 11820 [Note] Shutting down plugin 'sha256_password'
+2014-04-10 03:06:14 11820 [Note] Shutting down plugin 'mysql_old_password'
+2014-04-10 03:06:14 11820 [Note] Shutting down plugin 'mysql_native_password'
+2014-04-10 03:06:14 11820 [Note] Shutting down plugin 'binlog'
+2014-04-10 03:06:14 11820 [Note] mysql\bin\mysqld.exe: Shutdown complete
+
+2014-04-10 03:17:35 4840 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 03:17:35 2d9c InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 03:17:35 4840 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 03:17:35 4840 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 03:17:35 4840 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 03:17:35 4840 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 03:17:35 4840 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 03:17:35 4840 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 03:17:35 4840 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 03:17:35 4840 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-04-10 03:17:36 4840 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-04-10 03:17:36 4840 [Note] InnoDB: Waiting for purge to start
+2014-04-10 03:17:36 4840 [Note] InnoDB: 5.6.16 started; log sequence number 1626134
+2014-04-10 03:17:36 4840 [Note] Server hostname (bind-address): '*'; port: 3306
+2014-04-10 03:17:36 4840 [Note] IPv6 is available.
+2014-04-10 03:17:36 4840 [Note]   - '::' resolves to '::';
+2014-04-10 03:17:36 4840 [Note] Server socket created on IP: '::'.
+2014-04-10 03:18:26 8472 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 03:18:26 31ac InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 03:18:26 8472 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 03:18:26 8472 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 03:18:26 8472 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 03:18:26 8472 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 03:18:26 8472 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 03:18:26 8472 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 03:18:26 8472 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 03:18:26 8472 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-04-10 03:18:26 8472 [Note] InnoDB: Log scan progressed past the checkpoint lsn 1626134
+2014-04-10 03:18:26 8472 [Note] InnoDB: Database was not shutdown normally!
+2014-04-10 03:18:26 8472 [Note] InnoDB: Starting crash recovery.
+2014-04-10 03:18:26 8472 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-04-10 03:18:26 8472 [Note] InnoDB: Restoring possible half-written data pages 
+2014-04-10 03:18:26 8472 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Doing recovery: scanned up to log sequence number 1626144
+2014-04-10 03:18:27 8472 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-04-10 03:18:27 8472 [Note] InnoDB: Waiting for purge to start
+2014-04-10 03:18:27 8472 [Note] InnoDB: 5.6.16 started; log sequence number 1626144
+2014-04-10 03:18:27 8472 [Note] Server hostname (bind-address): '*'; port: 3306
+2014-04-10 03:18:27 8472 [Note] IPv6 is available.
+2014-04-10 03:18:27 8472 [Note]   - '::' resolves to '::';
+2014-04-10 03:18:27 8472 [Note] Server socket created on IP: '::'.
+2014-04-10 03:18:27 8472 [Note] Event Scheduler: Loaded 0 events
+2014-04-10 03:18:27 8472 [Note] mysql\bin\mysqld: ready for connections.
+Version: '5.6.16'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2014-04-10 03:18:40 11072 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 03:18:40 37b8 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 03:18:40 11072 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 03:18:40 11072 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 03:18:40 11072 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 03:18:40 11072 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 03:18:40 11072 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 03:18:40 11072 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 03:18:40 11072 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 03:18:40 11072 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-04-10 03:18:40 11072 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1626154 in the ib_logfiles!
+2014-04-10 03:18:40 11072 [Note] InnoDB: Database was not shutdown normally!
+2014-04-10 03:18:40 11072 [Note] InnoDB: Starting crash recovery.
+2014-04-10 03:18:40 11072 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-04-10 03:18:41 11072 [Note] InnoDB: Restoring possible half-written data pages 
+2014-04-10 03:18:41 11072 [Note] InnoDB: from the doublewrite buffer...
+2014-04-10 03:18:41 11072 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-04-10 03:18:41 11072 [Note] InnoDB: Waiting for purge to start
+2014-04-10 03:18:42 11072 [Note] InnoDB: 5.6.16 started; log sequence number 1626154
+2014-04-10 03:18:42 11072 [Note] Server hostname (bind-address): '*'; port: 3306
+2014-04-10 03:18:42 11072 [Note] IPv6 is available.
+2014-04-10 03:18:42 11072 [Note]   - '::' resolves to '::';
+2014-04-10 03:18:42 11072 [Note] Server socket created on IP: '::'.
+2014-04-10 03:21:02 13292 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 03:21:02 2aa0 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 03:21:02 13292 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 03:21:02 13292 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 03:21:02 13292 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 03:21:02 13292 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 03:21:02 13292 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 03:21:02 13292 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 03:21:02 13292 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 03:21:02 13292 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-04-10 03:21:02 13292 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1626164 in the ib_logfiles!
+2014-04-10 03:21:02 13292 [Note] InnoDB: Database was not shutdown normally!
+2014-04-10 03:21:02 13292 [Note] InnoDB: Starting crash recovery.
+2014-04-10 03:21:02 13292 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-04-10 03:21:02 13292 [Note] InnoDB: Restoring possible half-written data pages 
+2014-04-10 03:21:02 13292 [Note] InnoDB: from the doublewrite buffer...
+2014-04-10 03:21:03 13292 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-04-10 03:21:03 13292 [Note] InnoDB: Waiting for purge to start
+2014-04-10 03:21:03 13292 [Note] InnoDB: 5.6.16 started; log sequence number 1626164
+2014-04-10 03:21:03 13292 [Note] Server hostname (bind-address): '*'; port: 3306
+2014-04-10 03:21:03 13292 [Note] IPv6 is available.
+2014-04-10 03:21:03 13292 [Note]   - '::' resolves to '::';
+2014-04-10 03:21:03 13292 [Note] Server socket created on IP: '::'.
+2014-04-10 03:21:03 13292 [Note] Event Scheduler: Loaded 0 events
+2014-04-10 03:21:03 13292 [Note] mysql\bin\mysqld: ready for connections.
+Version: '5.6.16'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2014-04-10 03:22:03 11540 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 03:22:03 2d8c InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 03:22:03 11540 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 03:22:03 11540 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 03:22:03 11540 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 03:22:03 11540 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 03:22:03 11540 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 03:22:03 11540 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 03:22:03 11540 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 03:22:03 11540 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-04-10 03:22:03 11540 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1626174 in the ib_logfiles!
+2014-04-10 03:22:03 11540 [Note] InnoDB: Database was not shutdown normally!
+2014-04-10 03:22:03 11540 [Note] InnoDB: Starting crash recovery.
+2014-04-10 03:22:03 11540 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-04-10 03:22:03 11540 [Note] InnoDB: Restoring possible half-written data pages 
+2014-04-10 03:22:03 11540 [Note] InnoDB: from the doublewrite buffer...
+2014-04-10 03:22:04 11540 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-04-10 03:22:04 11540 [Note] InnoDB: Waiting for purge to start
+2014-04-10 03:22:04 11540 [Note] InnoDB: 5.6.16 started; log sequence number 1626174
+2014-04-10 03:22:04 11540 [Note] Server hostname (bind-address): '*'; port: 3306
+2014-04-10 03:22:04 11540 [Note] IPv6 is available.
+2014-04-10 03:22:04 11540 [Note]   - '::' resolves to '::';
+2014-04-10 03:22:04 11540 [Note] Server socket created on IP: '::'.
+2014-04-10 03:22:04 11540 [Note] Event Scheduler: Loaded 0 events
+2014-04-10 03:22:04 11540 [Note] mysql\bin\mysqld: ready for connections.
+Version: '5.6.16'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2014-04-10 03:23:21 11976 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 03:23:21 2d6c InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 03:23:21 11976 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 03:23:21 11976 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 03:23:21 11976 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 03:23:21 11976 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 03:23:21 11976 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 03:23:21 11976 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 03:23:21 11976 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 03:23:21 11976 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-04-10 03:23:21 11976 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1626184 in the ib_logfiles!
+2014-04-10 03:23:21 11976 [Note] InnoDB: Database was not shutdown normally!
+2014-04-10 03:23:21 11976 [Note] InnoDB: Starting crash recovery.
+2014-04-10 03:23:21 11976 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-04-10 03:23:21 11976 [Note] InnoDB: Restoring possible half-written data pages 
+2014-04-10 03:23:21 11976 [Note] InnoDB: from the doublewrite buffer...
+2014-04-10 03:23:21 11976 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-04-10 03:23:22 11976 [Note] InnoDB: Waiting for purge to start
+2014-04-10 03:23:22 11976 [Note] InnoDB: 5.6.16 started; log sequence number 1626184
+2014-04-10 03:23:22 11976 [Note] Server hostname (bind-address): '*'; port: 3306
+2014-04-10 03:23:22 11976 [Note] IPv6 is available.
+2014-04-10 03:23:22 11976 [Note]   - '::' resolves to '::';
+2014-04-10 03:23:22 11976 [Note] Server socket created on IP: '::'.
+2014-04-10 03:23:22 11976 [Note] Event Scheduler: Loaded 0 events
+2014-04-10 03:23:22 11976 [Note] mysql\bin\mysqld: ready for connections.
+Version: '5.6.16'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2014-04-10 03:23:42 3268 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 03:23:42 1648 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 03:23:42 3268 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 03:23:42 3268 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 03:23:42 3268 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 03:23:42 3268 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 03:23:42 3268 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 03:23:42 3268 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 03:23:42 3268 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 03:23:42 3268 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-04-10 03:23:42 3268 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1626194 in the ib_logfiles!
+2014-04-10 03:23:42 3268 [Note] InnoDB: Database was not shutdown normally!
+2014-04-10 03:23:42 3268 [Note] InnoDB: Starting crash recovery.
+2014-04-10 03:23:42 3268 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-04-10 03:23:43 3268 [Note] InnoDB: Restoring possible half-written data pages 
+2014-04-10 03:23:43 3268 [Note] InnoDB: from the doublewrite buffer...
+2014-04-10 03:23:43 3268 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-04-10 03:23:43 3268 [Note] InnoDB: Waiting for purge to start
+2014-04-10 03:23:43 3268 [Note] InnoDB: 5.6.16 started; log sequence number 1626194
+2014-04-10 03:23:43 3268 [Note] Server hostname (bind-address): '*'; port: 3306
+2014-04-10 03:23:43 3268 [Note] IPv6 is available.
+2014-04-10 03:23:43 3268 [Note]   - '::' resolves to '::';
+2014-04-10 03:23:43 3268 [Note] Server socket created on IP: '::'.
+2014-04-10 03:23:44 3268 [Note] Event Scheduler: Loaded 0 events
+2014-04-10 03:23:44 3268 [Note] mysql\bin\mysqld: ready for connections.
+Version: '5.6.16'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2014-04-10 03:24:30 13060 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 03:24:30 e4c InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 03:24:30 13060 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 03:24:30 13060 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 03:24:30 13060 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 03:24:30 13060 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 03:24:30 13060 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 03:24:30 13060 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 03:24:30 13060 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 03:24:30 13060 [ERROR] InnoDB: C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\mysql\data\ibdata1 can't be opened in read-write mode
+2014-04-10 03:24:30 13060 [ERROR] InnoDB: The system tablespace must be writable!
+2014-04-10 03:24:30 13060 [ERROR] Plugin 'InnoDB' init function returned error.
+2014-04-10 03:24:30 13060 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2014-04-10 03:24:30 13060 [ERROR] Unknown/unsupported storage engine: InnoDB
+2014-04-10 03:24:30 13060 [ERROR] Aborting
+
+2014-04-10 03:24:30 13060 [Note] Binlog end
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'partition'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'INNODB_METRICS'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'INNODB_CMP'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'INNODB_LOCKS'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'INNODB_TRX'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'BLACKHOLE'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'ARCHIVE'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'MRG_MYISAM'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'MyISAM'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'MEMORY'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'CSV'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'sha256_password'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'mysql_old_password'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'mysql_native_password'
+2014-04-10 03:24:30 13060 [Note] Shutting down plugin 'binlog'
+2014-04-10 03:24:30 13060 [Note] mysql\bin\mysqld: Shutdown complete
+
+2014-04-10 03:24:36 13896 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 03:24:36 2388 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 03:24:36 13896 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 03:24:36 13896 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 03:24:36 13896 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 03:24:36 13896 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 03:24:36 13896 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 03:24:36 13896 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 03:24:36 13896 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 03:24:36 13896 [ERROR] InnoDB: C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\mysql\data\ibdata1 can't be opened in read-write mode
+2014-04-10 03:24:36 13896 [ERROR] InnoDB: The system tablespace must be writable!
+2014-04-10 03:24:36 13896 [ERROR] Plugin 'InnoDB' init function returned error.
+2014-04-10 03:24:36 13896 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2014-04-10 03:24:36 13896 [ERROR] Unknown/unsupported storage engine: InnoDB
+2014-04-10 03:24:36 13896 [ERROR] Aborting
+
+2014-04-10 03:24:36 13896 [Note] Binlog end
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'partition'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'INNODB_METRICS'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'INNODB_CMP'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'INNODB_LOCKS'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'INNODB_TRX'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'BLACKHOLE'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'ARCHIVE'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'MRG_MYISAM'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'MyISAM'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'MEMORY'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'CSV'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'sha256_password'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'mysql_old_password'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'mysql_native_password'
+2014-04-10 03:24:36 13896 [Note] Shutting down plugin 'binlog'
+2014-04-10 03:24:36 13896 [Note] mysql\bin\mysqld: Shutdown complete
+
+2014-04-10 03:24:46 13360 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 03:24:46 1540 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 03:24:46 13360 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 03:24:46 13360 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 03:24:46 13360 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 03:24:46 13360 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 03:24:46 13360 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 03:24:46 13360 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 03:24:46 13360 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 03:24:46 13360 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-04-10 03:24:46 13360 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1626204 in the ib_logfiles!
+2014-04-10 03:24:46 13360 [Note] InnoDB: Database was not shutdown normally!
+2014-04-10 03:24:46 13360 [Note] InnoDB: Starting crash recovery.
+2014-04-10 03:24:46 13360 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-04-10 03:24:46 13360 [Note] InnoDB: Restoring possible half-written data pages 
+2014-04-10 03:24:46 13360 [Note] InnoDB: from the doublewrite buffer...
+2014-04-10 03:24:47 13360 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-04-10 03:24:47 13360 [Note] InnoDB: Waiting for purge to start
+2014-04-10 03:24:47 13360 [Note] InnoDB: 5.6.16 started; log sequence number 1626204
+2014-04-10 03:24:47 13360 [Note] Server hostname (bind-address): '*'; port: 3306
+2014-04-10 03:24:47 13360 [Note] IPv6 is available.
+2014-04-10 03:24:47 13360 [Note]   - '::' resolves to '::';
+2014-04-10 03:24:47 13360 [Note] Server socket created on IP: '::'.
+2014-04-10 03:24:47 13360 [Note] Event Scheduler: Loaded 0 events
+2014-04-10 03:24:47 13360 [Note] mysql\bin\mysqld: ready for connections.
+Version: '5.6.16'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2014-04-10 03:28:59 9392 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 03:28:59 2014 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 03:28:59 9392 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 03:28:59 9392 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 03:28:59 9392 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 03:28:59 9392 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 03:28:59 9392 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 03:28:59 9392 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 03:28:59 9392 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 03:28:59 9392 [ERROR] InnoDB: C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\mysql\data\ibdata1 can't be opened in read-write mode
+2014-04-10 03:28:59 9392 [ERROR] InnoDB: The system tablespace must be writable!
+2014-04-10 03:28:59 9392 [ERROR] Plugin 'InnoDB' init function returned error.
+2014-04-10 03:28:59 9392 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2014-04-10 03:28:59 9392 [ERROR] Unknown/unsupported storage engine: InnoDB
+2014-04-10 03:28:59 9392 [ERROR] Aborting
+
+2014-04-10 03:28:59 9392 [Note] Binlog end
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'partition'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'INNODB_METRICS'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'INNODB_CMP'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'INNODB_LOCKS'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'INNODB_TRX'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'BLACKHOLE'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'ARCHIVE'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'MRG_MYISAM'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'MyISAM'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'MEMORY'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'CSV'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'sha256_password'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'mysql_old_password'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'mysql_native_password'
+2014-04-10 03:28:59 9392 [Note] Shutting down plugin 'binlog'
+2014-04-10 03:28:59 9392 [Note] mysql\bin\mysqld: Shutdown complete
+
+2014-04-10 03:29:12 10416 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 03:29:12 1710 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 03:29:12 10416 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 03:29:12 10416 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 03:29:12 10416 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 03:29:12 10416 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 03:29:12 10416 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 03:29:12 10416 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 03:29:12 10416 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 03:29:12 10416 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-04-10 03:29:12 10416 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1626214 in the ib_logfiles!
+2014-04-10 03:29:12 10416 [Note] InnoDB: Database was not shutdown normally!
+2014-04-10 03:29:12 10416 [Note] InnoDB: Starting crash recovery.
+2014-04-10 03:29:12 10416 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-04-10 03:29:12 10416 [Note] InnoDB: Restoring possible half-written data pages 
+2014-04-10 03:29:12 10416 [Note] InnoDB: from the doublewrite buffer...
+2014-04-10 03:29:13 10416 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-04-10 03:29:13 10416 [Note] InnoDB: Waiting for purge to start
+2014-04-10 03:29:13 10416 [Note] InnoDB: 5.6.16 started; log sequence number 1626214
+2014-04-10 03:29:13 10416 [Note] Server hostname (bind-address): '*'; port: 3306
+2014-04-10 03:29:13 10416 [Note] IPv6 is available.
+2014-04-10 03:29:13 10416 [Note]   - '::' resolves to '::';
+2014-04-10 03:29:13 10416 [Note] Server socket created on IP: '::'.
+2014-04-10 03:29:13 10416 [Note] Event Scheduler: Loaded 0 events
+2014-04-10 03:29:13 10416 [Note] mysql\bin\mysqld: ready for connections.
+Version: '5.6.16'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2014-04-10 03:30:24 11064 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 03:30:24 278 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 03:30:24 11064 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 03:30:24 11064 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 03:30:24 11064 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 03:30:24 11064 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 03:30:24 11064 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 03:30:24 11064 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 03:30:24 11064 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 03:30:24 11064 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-04-10 03:30:24 11064 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1626224 in the ib_logfiles!
+2014-04-10 03:30:24 11064 [Note] InnoDB: Database was not shutdown normally!
+2014-04-10 03:30:24 11064 [Note] InnoDB: Starting crash recovery.
+2014-04-10 03:30:24 11064 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-04-10 03:30:24 11064 [Note] InnoDB: Restoring possible half-written data pages 
+2014-04-10 03:30:24 11064 [Note] InnoDB: from the doublewrite buffer...
+2014-04-10 03:30:25 11064 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-04-10 03:30:25 11064 [Note] InnoDB: Waiting for purge to start
+2014-04-10 03:30:25 11064 [Note] InnoDB: 5.6.16 started; log sequence number 1626224
+2014-04-10 03:30:25 11064 [Note] Server hostname (bind-address): '*'; port: 3306
+2014-04-10 03:30:25 11064 [Note] IPv6 is available.
+2014-04-10 03:30:25 11064 [Note]   - '::' resolves to '::';
+2014-04-10 03:30:25 11064 [Note] Server socket created on IP: '::'.
+2014-04-10 03:30:25 11064 [Note] Event Scheduler: Loaded 0 events
+2014-04-10 03:30:25 11064 [Note] mysql\bin\mysqld: ready for connections.
+Version: '5.6.16'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2014-04-10 03:31:49 13604 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 03:31:49 319c InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 03:31:49 13604 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 03:31:49 13604 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 03:31:49 13604 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 03:31:49 13604 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 03:31:49 13604 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 03:31:49 13604 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 03:31:49 13604 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 03:31:49 13604 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-04-10 03:31:49 13604 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1626234 in the ib_logfiles!
+2014-04-10 03:31:49 13604 [Note] InnoDB: Database was not shutdown normally!
+2014-04-10 03:31:49 13604 [Note] InnoDB: Starting crash recovery.
+2014-04-10 03:31:49 13604 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-04-10 03:31:49 13604 [Note] InnoDB: Restoring possible half-written data pages 
+2014-04-10 03:31:49 13604 [Note] InnoDB: from the doublewrite buffer...
+2014-04-10 03:31:50 13604 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-04-10 03:31:50 13604 [Note] InnoDB: Waiting for purge to start
+2014-04-10 03:31:50 13604 [Note] InnoDB: 5.6.16 started; log sequence number 1626234
+2014-04-10 03:31:50 13604 [Note] Server hostname (bind-address): '*'; port: 3306
+2014-04-10 03:31:50 13604 [Note] IPv6 is available.
+2014-04-10 03:31:50 13604 [Note]   - '::' resolves to '::';
+2014-04-10 03:31:50 13604 [Note] Server socket created on IP: '::'.
+2014-04-10 03:31:50 13604 [Note] Event Scheduler: Loaded 0 events
+2014-04-10 03:31:50 13604 [Note] mysql\bin\mysqld: ready for connections.
+Version: '5.6.16'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2014-04-10 03:36:28 1368 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 03:36:28 3014 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 03:36:28 1368 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 03:36:28 1368 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 03:36:28 1368 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 03:36:28 1368 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 03:36:28 1368 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 03:36:28 1368 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 03:36:28 1368 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 03:36:28 1368 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-04-10 03:36:28 1368 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1626244 in the ib_logfiles!
+2014-04-10 03:36:28 1368 [Note] InnoDB: Database was not shutdown normally!
+2014-04-10 03:36:28 1368 [Note] InnoDB: Starting crash recovery.
+2014-04-10 03:36:28 1368 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-04-10 03:36:29 1368 [Note] InnoDB: Restoring possible half-written data pages 
+2014-04-10 03:36:29 1368 [Note] InnoDB: from the doublewrite buffer...
+2014-04-10 03:36:29 1368 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-04-10 03:36:29 1368 [Note] InnoDB: Waiting for purge to start
+2014-04-10 03:36:29 1368 [Note] InnoDB: 5.6.16 started; log sequence number 1626244
+2014-04-10 03:36:29 1368 [Note] Server hostname (bind-address): '*'; port: 3306
+2014-04-10 03:36:29 1368 [Note] IPv6 is available.
+2014-04-10 03:36:29 1368 [Note]   - '::' resolves to '::';
+2014-04-10 03:36:29 1368 [Note] Server socket created on IP: '::'.
+2014-04-10 03:36:29 1368 [Note] Event Scheduler: Loaded 0 events
+2014-04-10 03:36:29 1368 [Note] mysql\bin\mysqld: ready for connections.
+Version: '5.6.16'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2014-04-10 03:38:06 3212 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 03:38:06 338 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 03:38:06 3212 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 03:38:06 3212 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 03:38:06 3212 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 03:38:06 3212 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 03:38:06 3212 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 03:38:06 3212 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 03:38:06 3212 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 03:38:06 3212 [ERROR] InnoDB: C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\mysql\data\ibdata1 can't be opened in read-write mode
+2014-04-10 03:38:06 3212 [ERROR] InnoDB: The system tablespace must be writable!
+2014-04-10 03:38:06 3212 [ERROR] Plugin 'InnoDB' init function returned error.
+2014-04-10 03:38:06 3212 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2014-04-10 03:38:06 3212 [ERROR] Unknown/unsupported storage engine: InnoDB
+2014-04-10 03:38:06 3212 [ERROR] Aborting
+
+2014-04-10 03:38:06 3212 [Note] Binlog end
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'partition'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'INNODB_METRICS'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'INNODB_CMP'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'INNODB_LOCKS'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'INNODB_TRX'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'BLACKHOLE'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'ARCHIVE'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'MRG_MYISAM'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'MyISAM'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'MEMORY'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'CSV'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'sha256_password'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'mysql_old_password'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'mysql_native_password'
+2014-04-10 03:38:06 3212 [Note] Shutting down plugin 'binlog'
+2014-04-10 03:38:06 3212 [Note] mysql\bin\mysqld: Shutdown complete
+
+2014-04-10 03:39:14 14128 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 03:39:14 34c0 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 03:39:14 14128 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 03:39:14 14128 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 03:39:14 14128 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 03:39:14 14128 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 03:39:14 14128 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 03:39:14 14128 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 03:39:14 14128 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 03:39:14 14128 [ERROR] InnoDB: C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\mysql\data\ibdata1 can't be opened in read-write mode
+2014-04-10 03:39:14 14128 [ERROR] InnoDB: The system tablespace must be writable!
+2014-04-10 03:39:14 14128 [ERROR] Plugin 'InnoDB' init function returned error.
+2014-04-10 03:39:14 14128 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2014-04-10 03:39:14 14128 [ERROR] Unknown/unsupported storage engine: InnoDB
+2014-04-10 03:39:14 14128 [ERROR] Aborting
+
+2014-04-10 03:39:14 14128 [Note] Binlog end
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'partition'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'INNODB_METRICS'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'INNODB_CMP'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'INNODB_LOCKS'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'INNODB_TRX'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'BLACKHOLE'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'ARCHIVE'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'MRG_MYISAM'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'MyISAM'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'MEMORY'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'CSV'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'sha256_password'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'mysql_old_password'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'mysql_native_password'
+2014-04-10 03:39:14 14128 [Note] Shutting down plugin 'binlog'
+2014-04-10 03:39:14 14128 [Note] mysql\bin\mysqld: Shutdown complete
+
+2014-04-10 03:39:38 4360 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 03:39:38 36d4 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 03:39:38 4360 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 03:39:38 4360 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 03:39:38 4360 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 03:39:38 4360 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 03:39:38 4360 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 03:39:38 4360 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 03:39:38 4360 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 03:39:38 4360 [ERROR] InnoDB: C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\mysql\data\ibdata1 can't be opened in read-write mode
+2014-04-10 03:39:38 4360 [ERROR] InnoDB: The system tablespace must be writable!
+2014-04-10 03:39:38 4360 [ERROR] Plugin 'InnoDB' init function returned error.
+2014-04-10 03:39:38 4360 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2014-04-10 03:39:38 4360 [ERROR] Unknown/unsupported storage engine: InnoDB
+2014-04-10 03:39:38 4360 [ERROR] Aborting
+
+2014-04-10 03:39:38 4360 [Note] Binlog end
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'partition'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'INNODB_METRICS'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'INNODB_CMP'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'INNODB_LOCKS'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'INNODB_TRX'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'BLACKHOLE'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'ARCHIVE'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'MRG_MYISAM'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'MyISAM'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'MEMORY'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'CSV'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'sha256_password'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'mysql_old_password'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'mysql_native_password'
+2014-04-10 03:39:38 4360 [Note] Shutting down plugin 'binlog'
+2014-04-10 03:39:38 4360 [Note] mysql\bin\mysqld: Shutdown complete
+
+2014-04-10 03:39:55 12172 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 03:39:55 37f4 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 03:39:55 12172 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 03:39:55 12172 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 03:39:55 12172 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 03:39:55 12172 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 03:39:55 12172 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 03:39:55 12172 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 03:39:55 12172 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 03:39:55 12172 [ERROR] InnoDB: C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\mysql\data\ibdata1 can't be opened in read-write mode
+2014-04-10 03:39:55 12172 [ERROR] InnoDB: The system tablespace must be writable!
+2014-04-10 03:39:55 12172 [ERROR] Plugin 'InnoDB' init function returned error.
+2014-04-10 03:39:55 12172 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2014-04-10 03:39:55 12172 [ERROR] Unknown/unsupported storage engine: InnoDB
+2014-04-10 03:39:55 12172 [ERROR] Aborting
+
+2014-04-10 03:39:55 12172 [Note] Binlog end
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'partition'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'INNODB_METRICS'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'INNODB_CMP'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'INNODB_LOCKS'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'INNODB_TRX'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'BLACKHOLE'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'ARCHIVE'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'MRG_MYISAM'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'MyISAM'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'MEMORY'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'CSV'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'sha256_password'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'mysql_old_password'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'mysql_native_password'
+2014-04-10 03:39:55 12172 [Note] Shutting down plugin 'binlog'
+2014-04-10 03:39:55 12172 [Note] mysql\bin\mysqld: Shutdown complete
+
+2014-04-10 03:40:11 5964 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 03:40:11 1050 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 03:40:11 5964 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 03:40:11 5964 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 03:40:11 5964 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 03:40:11 5964 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 03:40:11 5964 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 03:40:11 5964 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 03:40:11 5964 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 03:40:11 5964 [ERROR] InnoDB: C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\mysql\data\ibdata1 can't be opened in read-write mode
+2014-04-10 03:40:11 5964 [ERROR] InnoDB: The system tablespace must be writable!
+2014-04-10 03:40:11 5964 [ERROR] Plugin 'InnoDB' init function returned error.
+2014-04-10 03:40:11 5964 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2014-04-10 03:40:11 5964 [ERROR] Unknown/unsupported storage engine: InnoDB
+2014-04-10 03:40:11 5964 [ERROR] Aborting
+
+2014-04-10 03:40:11 5964 [Note] Binlog end
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'partition'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'INNODB_METRICS'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'INNODB_CMP'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'INNODB_LOCKS'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'INNODB_TRX'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'BLACKHOLE'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'ARCHIVE'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'MRG_MYISAM'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'MyISAM'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'MEMORY'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'CSV'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'sha256_password'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'mysql_old_password'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'mysql_native_password'
+2014-04-10 03:40:11 5964 [Note] Shutting down plugin 'binlog'
+2014-04-10 03:40:11 5964 [Note] mysql\bin\mysqld: Shutdown complete
+
+2014-04-10 03:40:44 8520 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 03:40:44 12c0 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 03:40:44 8520 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 03:40:44 8520 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 03:40:44 8520 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 03:40:44 8520 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 03:40:44 8520 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 03:40:44 8520 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 03:40:44 8520 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 03:40:44 8520 [ERROR] InnoDB: C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\mysql\data\ibdata1 can't be opened in read-write mode
+2014-04-10 03:40:44 8520 [ERROR] InnoDB: The system tablespace must be writable!
+2014-04-10 03:40:44 8520 [ERROR] Plugin 'InnoDB' init function returned error.
+2014-04-10 03:40:44 8520 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2014-04-10 03:40:44 8520 [ERROR] Unknown/unsupported storage engine: InnoDB
+2014-04-10 03:40:44 8520 [ERROR] Aborting
+
+2014-04-10 03:40:44 8520 [Note] Binlog end
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'partition'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'INNODB_METRICS'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'INNODB_CMP'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'INNODB_LOCKS'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'INNODB_TRX'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'BLACKHOLE'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'ARCHIVE'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'MRG_MYISAM'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'MyISAM'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'MEMORY'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'CSV'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'sha256_password'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'mysql_old_password'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'mysql_native_password'
+2014-04-10 03:40:44 8520 [Note] Shutting down plugin 'binlog'
+2014-04-10 03:40:44 8520 [Note] mysql\bin\mysqld: Shutdown complete
+
+2014-04-10 03:41:46 7712 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 03:41:46 104c InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 03:41:46 7712 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 03:41:46 7712 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 03:41:46 7712 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 03:41:46 7712 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 03:41:46 7712 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 03:41:46 7712 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 03:41:46 7712 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 03:41:46 7712 [ERROR] InnoDB: C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\mysql\data\ibdata1 can't be opened in read-write mode
+2014-04-10 03:41:46 7712 [ERROR] InnoDB: The system tablespace must be writable!
+2014-04-10 03:41:46 7712 [ERROR] Plugin 'InnoDB' init function returned error.
+2014-04-10 03:41:46 7712 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2014-04-10 03:41:46 7712 [ERROR] Unknown/unsupported storage engine: InnoDB
+2014-04-10 03:41:46 7712 [ERROR] Aborting
+
+2014-04-10 03:41:46 7712 [Note] Binlog end
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'partition'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'INNODB_METRICS'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'INNODB_CMP'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'INNODB_LOCKS'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'INNODB_TRX'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'BLACKHOLE'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'ARCHIVE'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'MRG_MYISAM'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'MyISAM'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'MEMORY'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'CSV'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'sha256_password'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'mysql_old_password'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'mysql_native_password'
+2014-04-10 03:41:46 7712 [Note] Shutting down plugin 'binlog'
+2014-04-10 03:41:46 7712 [Note] mysql\bin\mysqld: Shutdown complete
+
+2014-04-10 03:42:08 4524 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 03:42:08 204c InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 03:42:08 4524 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 03:42:08 4524 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 03:42:08 4524 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 03:42:08 4524 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 03:42:08 4524 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 03:42:08 4524 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 03:42:08 4524 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 03:42:08 4524 [ERROR] InnoDB: C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\mysql\data\ibdata1 can't be opened in read-write mode
+2014-04-10 03:42:08 4524 [ERROR] InnoDB: The system tablespace must be writable!
+2014-04-10 03:42:08 4524 [ERROR] Plugin 'InnoDB' init function returned error.
+2014-04-10 03:42:08 4524 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2014-04-10 03:42:08 4524 [ERROR] Unknown/unsupported storage engine: InnoDB
+2014-04-10 03:42:08 4524 [ERROR] Aborting
+
+2014-04-10 03:42:08 4524 [Note] Binlog end
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'partition'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'INNODB_METRICS'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'INNODB_CMP'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'INNODB_LOCKS'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'INNODB_TRX'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'BLACKHOLE'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'ARCHIVE'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'MRG_MYISAM'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'MyISAM'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'MEMORY'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'CSV'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'sha256_password'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'mysql_old_password'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'mysql_native_password'
+2014-04-10 03:42:08 4524 [Note] Shutting down plugin 'binlog'
+2014-04-10 03:42:08 4524 [Note] mysql\bin\mysqld: Shutdown complete
+
+2014-04-10 03:42:23 12884 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 03:42:23 3278 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 03:42:23 12884 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 03:42:23 12884 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 03:42:23 12884 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 03:42:23 12884 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 03:42:23 12884 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 03:42:23 12884 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 03:42:23 12884 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 03:42:23 12884 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-04-10 03:42:23 12884 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1626254 in the ib_logfiles!
+2014-04-10 03:42:23 12884 [Note] InnoDB: Database was not shutdown normally!
+2014-04-10 03:42:23 12884 [Note] InnoDB: Starting crash recovery.
+2014-04-10 03:42:23 12884 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-04-10 03:42:23 12884 [Note] InnoDB: Restoring possible half-written data pages 
+2014-04-10 03:42:23 12884 [Note] InnoDB: from the doublewrite buffer...
+2014-04-10 03:42:24 12884 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-04-10 03:42:24 12884 [Note] InnoDB: Waiting for purge to start
+2014-04-10 03:42:24 12884 [Note] InnoDB: 5.6.16 started; log sequence number 1626254
+2014-04-10 03:42:24 12884 [Note] Server hostname (bind-address): '*'; port: 3306
+2014-04-10 03:42:24 12884 [Note] IPv6 is available.
+2014-04-10 03:42:24 12884 [Note]   - '::' resolves to '::';
+2014-04-10 03:42:24 12884 [Note] Server socket created on IP: '::'.
+2014-04-10 03:42:24 12884 [Note] Event Scheduler: Loaded 0 events
+2014-04-10 03:42:24 12884 [Note] mysql\bin\mysqld: ready for connections.
+Version: '5.6.16'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2014-04-10 03:46:53 1288 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 03:46:53 30bc InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 03:46:53 1288 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 03:46:53 1288 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 03:46:53 1288 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 03:46:53 1288 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 03:46:53 1288 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 03:46:53 1288 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 03:46:53 1288 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 03:46:53 1288 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-04-10 03:46:53 1288 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1626264 in the ib_logfiles!
+2014-04-10 03:46:53 1288 [Note] InnoDB: Database was not shutdown normally!
+2014-04-10 03:46:53 1288 [Note] InnoDB: Starting crash recovery.
+2014-04-10 03:46:53 1288 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-04-10 03:46:53 1288 [Note] InnoDB: Restoring possible half-written data pages 
+2014-04-10 03:46:53 1288 [Note] InnoDB: from the doublewrite buffer...
+2014-04-10 03:46:54 1288 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-04-10 03:46:54 1288 [Note] InnoDB: Waiting for purge to start
+2014-04-10 03:46:54 1288 [Note] InnoDB: 5.6.16 started; log sequence number 1626264
+2014-04-10 03:46:54 1288 [Note] Server hostname (bind-address): '*'; port: 3306
+2014-04-10 03:46:54 1288 [Note] IPv6 is available.
+2014-04-10 03:46:54 1288 [Note]   - '::' resolves to '::';
+2014-04-10 03:46:54 1288 [Note] Server socket created on IP: '::'.
+2014-04-10 03:46:54 1288 [Note] Event Scheduler: Loaded 0 events
+2014-04-10 03:46:54 1288 [Note] mysql\bin\mysqld: ready for connections.
+Version: '5.6.16'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2014-04-10 03:49:58 11680 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 03:49:58 2528 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 03:49:58 11680 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 03:49:58 11680 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 03:49:58 11680 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 03:49:58 11680 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 03:49:58 11680 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 03:49:58 11680 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 03:49:58 11680 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 03:49:58 11680 [ERROR] InnoDB: C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\mysql\data\ibdata1 can't be opened in read-write mode
+2014-04-10 03:49:58 11680 [ERROR] InnoDB: The system tablespace must be writable!
+2014-04-10 03:49:58 11680 [ERROR] Plugin 'InnoDB' init function returned error.
+2014-04-10 03:49:58 11680 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2014-04-10 03:49:58 11680 [ERROR] Unknown/unsupported storage engine: InnoDB
+2014-04-10 03:49:58 11680 [ERROR] Aborting
+
+2014-04-10 03:49:58 11680 [Note] Binlog end
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'partition'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'INNODB_METRICS'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'INNODB_CMP'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'INNODB_LOCKS'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'INNODB_TRX'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'BLACKHOLE'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'ARCHIVE'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'MRG_MYISAM'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'MyISAM'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'MEMORY'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'CSV'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'sha256_password'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'mysql_old_password'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'mysql_native_password'
+2014-04-10 03:49:58 11680 [Note] Shutting down plugin 'binlog'
+2014-04-10 03:49:58 11680 [Note] mysql\bin\mysqld: Shutdown complete
+
+2014-04-10 03:50:02 14120 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 03:50:02 2ac0 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 03:50:02 14120 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 03:50:02 14120 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 03:50:02 14120 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 03:50:02 14120 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 03:50:02 14120 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 03:50:02 14120 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 03:50:02 14120 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 03:50:02 14120 [ERROR] InnoDB: C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\mysql\data\ibdata1 can't be opened in read-write mode
+2014-04-10 03:50:02 14120 [ERROR] InnoDB: The system tablespace must be writable!
+2014-04-10 03:50:02 14120 [ERROR] Plugin 'InnoDB' init function returned error.
+2014-04-10 03:50:02 14120 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2014-04-10 03:50:02 14120 [ERROR] Unknown/unsupported storage engine: InnoDB
+2014-04-10 03:50:02 14120 [ERROR] Aborting
+
+2014-04-10 03:50:02 14120 [Note] Binlog end
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'partition'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'INNODB_METRICS'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'INNODB_CMP'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'INNODB_LOCKS'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'INNODB_TRX'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'BLACKHOLE'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'ARCHIVE'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'MRG_MYISAM'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'MyISAM'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'MEMORY'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'CSV'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'sha256_password'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'mysql_old_password'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'mysql_native_password'
+2014-04-10 03:50:02 14120 [Note] Shutting down plugin 'binlog'
+2014-04-10 03:50:02 14120 [Note] mysql\bin\mysqld: Shutdown complete
+
+2014-04-10 04:04:26 8180 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 04:04:26 9bc InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 04:04:26 8180 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 04:04:26 8180 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 04:04:26 8180 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 04:04:26 8180 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 04:04:26 8180 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 04:04:26 8180 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 04:04:26 8180 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 04:04:27 8180 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-04-10 04:04:27 8180 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1626274 in the ib_logfiles!
+2014-04-10 04:04:27 8180 [Note] InnoDB: Database was not shutdown normally!
+2014-04-10 04:04:27 8180 [Note] InnoDB: Starting crash recovery.
+2014-04-10 04:04:27 8180 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-04-10 04:04:27 8180 [Note] InnoDB: Restoring possible half-written data pages 
+2014-04-10 04:04:27 8180 [Note] InnoDB: from the doublewrite buffer...
+2014-04-10 04:04:27 8180 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-04-10 04:04:27 8180 [Note] InnoDB: Waiting for purge to start
+2014-04-10 04:04:28 8180 [Note] InnoDB: 5.6.16 started; log sequence number 1626274
+2014-04-10 04:04:28 8180 [Note] Server hostname (bind-address): '*'; port: 3306
+2014-04-10 04:04:28 8180 [Note] IPv6 is available.
+2014-04-10 04:04:28 8180 [Note]   - '::' resolves to '::';
+2014-04-10 04:04:28 8180 [Note] Server socket created on IP: '::'.
+2014-04-10 04:04:28 8180 [Note] Event Scheduler: Loaded 0 events
+2014-04-10 04:04:28 8180 [Note] mysql\bin\mysqld: ready for connections.
+Version: '5.6.16'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2014-04-10 04:05:52 10868 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 04:05:52 2c54 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 04:05:52 10868 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 04:05:52 10868 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 04:05:52 10868 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 04:05:52 10868 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 04:05:52 10868 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 04:05:52 10868 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 04:05:52 10868 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 04:05:52 10868 [ERROR] InnoDB: C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\mysql\data\ibdata1 can't be opened in read-write mode
+2014-04-10 04:05:52 10868 [ERROR] InnoDB: The system tablespace must be writable!
+2014-04-10 04:05:52 10868 [ERROR] Plugin 'InnoDB' init function returned error.
+2014-04-10 04:05:52 10868 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2014-04-10 04:05:52 10868 [ERROR] Unknown/unsupported storage engine: InnoDB
+2014-04-10 04:05:52 10868 [ERROR] Aborting
+
+2014-04-10 04:05:52 10868 [Note] Binlog end
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'partition'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'INNODB_METRICS'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'INNODB_CMP'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'INNODB_LOCKS'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'INNODB_TRX'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'BLACKHOLE'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'ARCHIVE'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'MRG_MYISAM'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'MyISAM'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'MEMORY'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'CSV'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'sha256_password'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'mysql_old_password'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'mysql_native_password'
+2014-04-10 04:05:52 10868 [Note] Shutting down plugin 'binlog'
+2014-04-10 04:05:52 10868 [Note] mysql\bin\mysqld: Shutdown complete
+
+2014-04-10 04:06:21 6544 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 04:06:21 207c InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 04:06:21 6544 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 04:06:21 6544 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 04:06:21 6544 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 04:06:21 6544 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 04:06:21 6544 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 04:06:21 6544 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 04:06:21 6544 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 04:06:21 6544 [ERROR] InnoDB: C:\Users\Whelpton\Desktop\WindowsServertool\0.7.2\mysql\data\ibdata1 can't be opened in read-write mode
+2014-04-10 04:06:21 6544 [ERROR] InnoDB: The system tablespace must be writable!
+2014-04-10 04:06:21 6544 [ERROR] Plugin 'InnoDB' init function returned error.
+2014-04-10 04:06:21 6544 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2014-04-10 04:06:21 6544 [ERROR] Unknown/unsupported storage engine: InnoDB
+2014-04-10 04:06:21 6544 [ERROR] Aborting
+
+2014-04-10 04:06:21 6544 [Note] Binlog end
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'partition'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'INNODB_METRICS'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'INNODB_CMP'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'INNODB_LOCKS'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'INNODB_TRX'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'BLACKHOLE'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'ARCHIVE'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'MRG_MYISAM'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'MyISAM'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'MEMORY'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'CSV'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'sha256_password'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'mysql_old_password'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'mysql_native_password'
+2014-04-10 04:06:21 6544 [Note] Shutting down plugin 'binlog'
+2014-04-10 04:06:21 6544 [Note] mysql\bin\mysqld: Shutdown complete
+
+2014-04-10 04:14:36 7708 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 04:14:36 3684 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 04:14:36 7708 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 04:14:36 7708 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 04:14:36 7708 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 04:14:36 7708 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 04:14:36 7708 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 04:14:36 7708 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 04:14:36 7708 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 04:14:36 7708 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-04-10 04:14:36 7708 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1626284 in the ib_logfiles!
+2014-04-10 04:14:36 7708 [Note] InnoDB: Database was not shutdown normally!
+2014-04-10 04:14:36 7708 [Note] InnoDB: Starting crash recovery.
+2014-04-10 04:14:36 7708 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-04-10 04:14:36 7708 [Note] InnoDB: Restoring possible half-written data pages 
+2014-04-10 04:14:36 7708 [Note] InnoDB: from the doublewrite buffer...
+2014-04-10 04:14:37 7708 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-04-10 04:14:37 7708 [Note] InnoDB: Waiting for purge to start
+2014-04-10 04:14:37 7708 [Note] InnoDB: 5.6.16 started; log sequence number 1626284
+2014-04-10 04:14:37 7708 [Note] Server hostname (bind-address): '*'; port: 3306
+2014-04-10 04:14:37 7708 [Note] IPv6 is available.
+2014-04-10 04:14:37 7708 [Note]   - '::' resolves to '::';
+2014-04-10 04:14:37 7708 [Note] Server socket created on IP: '::'.
+2014-04-10 04:14:37 7708 [Note] Event Scheduler: Loaded 0 events
+2014-04-10 04:14:37 7708 [Note] mysql\bin\mysqld: ready for connections.
+Version: '5.6.16'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2014-04-10 04:40:38 11032 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 04:40:38 2f18 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 04:40:38 11032 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 04:40:38 11032 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 04:40:38 11032 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 04:40:38 11032 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 04:40:38 11032 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 04:40:38 11032 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 04:40:38 11032 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 04:40:38 11032 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-04-10 04:40:38 11032 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1626294 in the ib_logfiles!
+2014-04-10 04:40:38 11032 [Note] InnoDB: Database was not shutdown normally!
+2014-04-10 04:40:38 11032 [Note] InnoDB: Starting crash recovery.
+2014-04-10 04:40:38 11032 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-04-10 04:40:38 11032 [Note] InnoDB: Restoring possible half-written data pages 
+2014-04-10 04:40:38 11032 [Note] InnoDB: from the doublewrite buffer...
+2014-04-10 04:40:39 11032 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-04-10 04:40:39 11032 [Note] InnoDB: Waiting for purge to start
+2014-04-10 04:40:39 11032 [Note] InnoDB: 5.6.16 started; log sequence number 1626294
+2014-04-10 04:40:39 11032 [Note] Server hostname (bind-address): '*'; port: 3306
+2014-04-10 04:40:39 11032 [Note] IPv6 is available.
+2014-04-10 04:40:39 11032 [Note]   - '::' resolves to '::';
+2014-04-10 04:40:39 11032 [Note] Server socket created on IP: '::'.
+2014-04-10 04:40:39 11032 [Note] Event Scheduler: Loaded 0 events
+2014-04-10 04:40:39 11032 [Note] mysql\bin\mysqld: ready for connections.
+Version: '5.6.16'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2014-04-10 04:47:45 2208 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 04:47:45 1710 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 04:47:45 2208 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 04:47:45 2208 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 04:47:45 2208 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 04:47:45 2208 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 04:47:45 2208 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 04:47:45 2208 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 04:47:45 2208 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 04:47:45 2208 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-04-10 04:47:46 2208 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1626304 in the ib_logfiles!
+2014-04-10 04:47:46 2208 [Note] InnoDB: Database was not shutdown normally!
+2014-04-10 04:47:46 2208 [Note] InnoDB: Starting crash recovery.
+2014-04-10 04:47:46 2208 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-04-10 04:47:47 2208 [Note] InnoDB: Restoring possible half-written data pages 
+2014-04-10 04:47:47 2208 [Note] InnoDB: from the doublewrite buffer...
+2014-04-10 04:47:55 2208 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-04-10 04:47:55 2208 [Note] InnoDB: Waiting for purge to start
+2014-04-10 04:47:55 2208 [Note] InnoDB: 5.6.16 started; log sequence number 1626304
+2014-04-10 04:47:55 2208 [Note] Server hostname (bind-address): '*'; port: 3306
+2014-04-10 04:47:55 2208 [Note] IPv6 is available.
+2014-04-10 04:47:55 2208 [Note]   - '::' resolves to '::';
+2014-04-10 04:47:55 2208 [Note] Server socket created on IP: '::'.
+2014-04-10 04:47:57 2208 [Note] Event Scheduler: Loaded 0 events
+2014-04-10 04:47:57 2208 [Note] mysql\bin\mysqld: ready for connections.
+Version: '5.6.16'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2014-04-10 05:00:10 4104 [Note] Plugin 'FEDERATED' is disabled.
+2014-04-10 05:00:10 30c8 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2014-04-10 05:00:10 4104 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-04-10 05:00:10 4104 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-04-10 05:00:10 4104 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-04-10 05:00:10 4104 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-04-10 05:00:10 4104 [Note] InnoDB: Not using CPU crc32 instructions
+2014-04-10 05:00:10 4104 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2014-04-10 05:00:10 4104 [Note] InnoDB: Completed initialization of buffer pool
+2014-04-10 05:00:10 4104 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-04-10 05:00:10 4104 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1626314 in the ib_logfiles!
+2014-04-10 05:00:10 4104 [Note] InnoDB: Database was not shutdown normally!
+2014-04-10 05:00:10 4104 [Note] InnoDB: Starting crash recovery.
+2014-04-10 05:00:10 4104 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-04-10 05:00:10 4104 [Note] InnoDB: Restoring possible half-written data pages 
+2014-04-10 05:00:10 4104 [Note] InnoDB: from the doublewrite buffer...
+2014-04-10 05:00:11 4104 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-04-10 05:00:12 4104 [Note] InnoDB: Waiting for purge to start
+2014-04-10 05:00:12 4104 [Note] InnoDB: 5.6.16 started; log sequence number 1626314
+2014-04-10 05:00:12 4104 [Note] Server hostname (bind-address): '*'; port: 3306
+2014-04-10 05:00:12 4104 [Note] IPv6 is available.
+2014-04-10 05:00:12 4104 [Note]   - '::' resolves to '::';
+2014-04-10 05:00:12 4104 [Note] Server socket created on IP: '::'.
+2014-04-10 05:00:12 4104 [Note] Event Scheduler: Loaded 0 events
+2014-04-10 05:00:12 4104 [Note] mysql\bin\mysqld: ready for connections.
+Version: '5.6.16'  socket: ''  port: 3306  MySQL Community Server (GPL)
